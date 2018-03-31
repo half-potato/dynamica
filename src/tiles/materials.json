@@ -1,0 +1,79 @@
+{
+    "Aluminum Alloy": {
+        "density": 2.7199999999999998,
+        "melting_point": 612.5,
+        "thermal_expansion": 23.0,
+        "ultimate_stress": 325.0,
+        "yield_stress": 267.5
+    },
+    "Aluminum [Al]": {
+        "density": 2.71,
+        "melting_point": 660.3,
+        "thermal_expansion": 23.0,
+        "ultimate_stress": 70.0,
+        "yield_stress": 20.0
+    },
+    "Brass": {
+        "density": 8.575,
+        "melting_point": 930.0,
+        "thermal_expansion": 20.15,
+        "ultimate_stress": 410.0,
+        "yield_stress": 310.0
+    },
+    "Copper Alloy": {
+        "density": 8.23,
+        "melting_point": 925.0,
+        "thermal_expansion": 17.0,
+        "ultimate_stress": 830.0,
+        "yield_stress": 760.0
+    },
+    "Copper [Cu]": {
+        "density": 8.94,
+        "melting_point": 1085.0,
+        "thermal_expansion": 17.1,
+        "ultimate_stress": 305.0,
+        "yield_stress": 192.5
+    },
+    "Magnesium [Mg]": {
+        "density": 1.74,
+        "melting_point": 650.0,
+        "thermal_expansion": 25.2,
+        "ultimate_stress": 135.0,
+        "yield_stress": 45.0
+    },
+    "Nickel [Ni]": {
+        "density": 8.89,
+        "melting_point": 1455.0,
+        "thermal_expansion": 13.0,
+        "ultimate_stress": 535.0,
+        "yield_stress": 380.0
+    },
+    "Solder; Tin-Lead": {
+        "density": 9.754999999999999,
+        "melting_point": 215.0,
+        "thermal_expansion": 0.0,
+        "ultimate_stress": 33.0,
+        "yield_stress": 0.0
+    },
+    "Steel": {
+        "density": 7.85,
+        "melting_point": 1425.0,
+        "thermal_expansion": 14.0,
+        "ultimate_stress": 1120.0,
+        "yield_stress": 940.0
+    },
+    "Titanium [Ti]": {
+        "density": 4.54,
+        "melting_point": 1668.0,
+        "thermal_expansion": 0.0,
+        "ultimate_stress": 500.0,
+        "yield_stress": 0.0
+    },
+    "Tungsten [W]": {
+        "density": 19.3,
+        "melting_point": 3422.0,
+        "thermal_expansion": 4.3,
+        "ultimate_stress": 2700.0,
+        "yield_stress": 0.0
+    }
+}
