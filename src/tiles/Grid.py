@@ -1,3 +1,4 @@
+from Tile import OCCUPIED_DENSITY
 class Grid:
     def __init__(self, data, x, y):
         self.data = np.array(data)
@@ -34,3 +35,6 @@ class Grid:
             self.data.insert(ind_y, val_y)
             if ind_y <= self.y:
                 self.y += 1
+
+    def isOccupied(self):
+        return np.sum(self.data) > OCCUPIED_DENSITY

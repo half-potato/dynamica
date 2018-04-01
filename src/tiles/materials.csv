@@ -1,45 +1,284 @@
-Material,"Density (×1000 kg/m3)","Melting Point (ºC)","Boiling Point (ºC)",Material,"Electric Resistivity (×10-9 W·m)",Material,"Thermal Expansion Coefficient (×10-6/ºC)","Thermal Conductivity (W/m·K)",Material,"Yield Stress (MPa)","Ultimate Stress (MPa)","Elongation (%)"
-Aluminum [Al],2.71,660.3,2519,Aluminum [Al],27,Aluminum [Al],23,237,Aluminum [Al],20,70,60
-Aluminum Alloy,2.64 - 2.8,565.0 - 660.0,-,Aluminum Alloy,50,Aluminum Alloy,23,-,Aluminum Alloy,35 - 500,100 - 550,1 - 45
-Brass,8.4 - 8.75,930,-,Brass,20 - 61,Brass,19.1 - 21.2,-,Brass,70 - 550,200 - 620,4 - 60
-Brass; Noval,8.4,-,-,Carbon [C],1.4 × 104,Brass; Noval,21.1,-,Brass; Noval,170 - 410,410 - 590,15 - 50
-"Brass; Red (80% Cu, 20% Zn)",8.75,1000,-,Copper [Cu],17,"Brass; Red (80% Cu, 20% Zn)",19.1,-,"Brass; Red (80% Cu, 20% Zn)",90 - 470,300 - 590,4 - 50
-Brick,1.8 - 2.4,-,-,Copper Alloy,17 - 490,Brick,5.00 - 7.00,-,Brick,-,7.0 - 70,-
-Bronze; Regular,7.8 - 8.8,1050,-,Gold [Au],24,Bronze; Regular,18.0 - 21.0,-,Bronze; Regular,82 - 690,200 - 830,5 - 60
-Bronze; Manganese,8.3,-,-,Iron [Fe],97,Bronze; Manganese,20,-,Bronze; Manganese,170 - 450,450 - 620,10 - 35
-Carbon [C],2.25,4492,3642,Lead [Pb],210,Concrete,7.00 - 14.0,-,Concrete (Compression),-,10 - 70,-
-Ceramic,2 - 3,3870,-,Magnesium [Mg],45,Copper [Cu],16.6 - 17.6,410,Copper [Cu],55 - 330,230 - 380,10 - 50
-Concrete,2.3 - 2.4,-,-,Nickel [Ni],70,Copper Alloy,17,-,Copper Alloy,760,830,4
-Copper [Cu],8.94,1085,2562,Platinum [Pt],110,Glass,5.00 - 11.0,-,Glass,-,30 - 1000,-
-Copper Alloy,8.23,925,-,Silicon [Si],100,Gold [Au],-,317,Iron (Cast),120 - 290,69 - 480,0 - 1
-Cork,0.15 - 0.2,-,-,Silver [Ag],16,Iron [Fe],-,80.2,Iron (Wrought),210,340,35
-Glass,2.4 - 2.8,-,-,Solder; Tin-Lead,130 - 210,Iron (Cast),9.90 - 12.0,-,Magnesium [Mg],20 - 70,100 - 170,5 - 15
-Gold [Au],19.32,1064,2856,Steel,120 - 1700,Iron (Wrought),12,-,Magnesium Alloy,80 - 280,140 - 340,2 - 20
-Iron [Fe],7.87,1538,2861,Tin [Sn],110,Lead [Pb],-,35.3,"Monel (67% Ni, 30% Cu)",170 - 1100,450 - 1200,2 - 50
-Iron (Cast),7 - 7.4,-,-,Titanium [Ti],430,Magnesium [Mg],25.2,156,Nickel [Ni],140 - 620,310 - 760,2 - 50
-Iron (Wrought),7.4 - 7.8,-,-,Tungsten [W],56,Magnesium Alloy,26.1 - 28.8,-,Nylon; Polyamide,-,40 - 70,50
-Lead [Pb],11.3,327.5,1749,Zinc [Zn],59,"Monel (67% Ni, 30% Cu)",14,-,Rubber,1.0 - 7.0,7.0 - 20,100 - 800
-Magnesium [Mg],1.74,650,1090,,,Nickel [Ni],13,90.7,Solder; Tin-Lead,-,12 - 54,55 - 30
-Magnesium Alloy,1.77,1246,2061,,,Nylon; Polyamide,75.0 - 100,-,Steel,280 - 1600,340 - 1900,3 - 40
-"Monel (67% Ni, 30% Cu)",8.84,1330,-,,,Platinum [Pt],-,71.6,Stone; Granite (Compression),-,70 - 280,-
-Nickel [Ni],8.89,1455,2913,,,Rubber,130 - 200,-,Stone; Limestone (Compression),-,20 - 200,-
-Nylon; Polyamide,1.1,-,-,,,Silicon [Si],-,148,Stone; Marble (Compression),-,50 - 180,-
-Platinum [Pt],21.4,1768,3825,,,Silver [Ag],-,429,Titanium [Ti],-,500,25
-Rubber,0.96 - 1.3,-,-,,,Solder; Tin-Lead,-,30.0 - 49.8,Titanium Alloy,-,900 - 970,10
-Silicon [Si],2.33,1382,-,,,Steel,10.0 - 18.0,-,Tungsten [W],-,1400 - 4000,0 - 4
-Silver [Ag],10.49,961.8,2162,,,Tin [Sn],-,66.6,Wood; Ash (Bending),40 - 70,50 - 100,-
-Solder; Tin-Lead,8.17 - 11.34,215,-,,,Titanium [Ti],-,21.9,Wood; Douglas Fir (Bending),30 - 50,50 - 80,-
-Steel,7.85,1425,-,,,Titanium Alloy,8.00 - 10.0,-,Wood; Oak (Bending),40 - 60,50 - 100,-
-Stone; Granite,2.6,-,-,,,Tungsten [W],4.3,174,Wood; Southern Pine (Bending),40 - 60,50 - 100,-
-Stone; Limestone,2 - 2.9,-,-,,,Zinc [Zn],30.2,116,,,,
-Stone; Marble,2.6 - 2.9,-,-,,,,,,,,,
-Stone; Quartz,2.6,-,-,,,,,,,,,
-Tin [Sn],7.3,231.9,2602,,,,,,,,,
-Titanium [Ti],4.54,1668,3287,,,,,,,,,
-Titanium Alloy,4.51,-,-,,,,,,,,,
-Tungsten [W],19.3,3422,5555,,,,,,,,,
-Wood; Ash,0.56 - 0.64,-,-,,,,,,,,,
-Wood; Douglas Fir,0.48 - 0.56,-,-,,,,,,,,,
-Wood; Oak,0.64 - 0.72,-,-,,,,,,,,,
-Wood; Southern Pine,0.55 - 0.64,-,-,,,,,,,,,
-Zinc [Zn],7.14,419.5,907,,,,,,,,,
+Material,"Density ","Melting Point ","Boiling Point ",Material,"Electric Resistivity ",Material,"Thermal Expansion Coefficient ","Thermal Conductivity ",Material,"Tensile Strength ","Elongation ",Material,Specific Heat (J/kgoC),Material,Boiling Points at Atmospheric Pressure,Material,Radiation Constant ,Material,"Thermal Conductivity - k - W/",Material,Crushing Weight ,Shearing Strength ,"Strength ",Material,Ksp
+Aluminum,2.71,660.3,2519,Aluminum,27,Aluminum,23,237,Aluminum,70,60,Acetals,1460,Acetaldehyde CH3CHO,20.8,Black body,5.7,Acetone,0.16,Sandstone,150,8000,1500,Aluminium hydroxide,3*10-34
+Aluminum Alloy,2.64 - 2.8,565.0 - 660.0,-,Aluminum Alloy,50,Aluminum Alloy,23,-,Aluminum Alloy,100 - 550,1 - 45,Air,1005,Acetic acid anhydride 2O,139,Brass,0.152,Acetylene ,0.018,Granite,170,15000,2000,Aluminium phosphate,9.84 *10-21
+Brass,8.4 - 8.75,930,-,Brass,20 - 61,Brass,19.1 - 21.2,-,Brass,200 - 620,4 - 60,Agate,800,Acetone CH3COCH3,50.5,Brick,5.16,Acrylic,0.2,Limestone,170,6000,1000,Barium bromate,2.43*10-4
+Brass,8.4,-,-,Carbon,1.4 × 104,Brass,21.1,-,Brass,410 - 590,15 - 50,Alcohol,2440,Acetylene,-84,Cast iron,5.09,Air,0.0262,Marble,170,10000,1400,Barium carbonate,2.58*10-9
+Brass,8.75,1000,-,Copper,17,Brass,19.1,-,Brass,300 - 590,4 - 50,Alcohol,2530,Alcohol - ethyl  C2H5OH,79,Copper,0.119,Air,0.02,Slate,175,15000,,Barium chromate,1.17*10-10
+Brick,1.8 - 2.4,-,-,Copper Alloy,17 - 490,Brick,5.00 - 7.00,-,Brick,7.0 - 70,-,Aluminum,897,Alcohol - allyl,97.2,Cotton,4.23,Agate,10.9,,,,,Barium fluoride,1.84*10-7
+Bronze,7.8 - 8.8,1050,-,Gold,24,Bronze,18.0 - 21.0,-,Bronze,200 - 830,5 - 60,Aluminum bronze,436,Alcohol - butyl-n,117,Glass,5.13,Alcohol,0.17,,,,,Barium hydroxide octahydrate,2.55*10-4
+Bronze,8.3,-,-,Iron,97,Bronze,20,-,Bronze,450 - 620,10 - 35,Alumina,718,Alcohol - methyl  CH3OH,64.7,Lamp black,5.16,Aluminum,205,,,,,Barium iodate,4.01 *10-9
+Carbon,2.25,4492,3642,Lead,210,Concrete,7.00 - 14.0,-,Concrete ,10 - 70,-,Ammonia,4700,Alcohol - propyl,97.5,Oil paint,4.3,Aluminum Brass,121,,,,,Barium iodate monohydrate,1.67 *10-9
+Ceramic,2 - 3,3870,-,Magnesium,45,Copper,16.6 - 17.6,410,Copper,230 - 380,10 - 50,Ammonia,2060,Ammonia,-35.5,Paper,4.43,Aluminum Oxide,30,,,,,Barium molybdate,3.54*10-8
+Concrete,2.3 - 2.4,-,-,Nickel,70,Copper Alloy,17,-,Copper Alloy,830,4,Antimony,209,Aniline,184.4,Plaster,5.16,Ammonia ,0.0249,,,,,Barium nitrate,4.64*10-3
+Copper,8.94,1085,2562,Platinum,110,Glass,5.00 - 11.0,-,Glass,30 - 1000,-,Argon,520,Argon,-186,Sand,4.2,Antimony,18.5,,,,,Barium selenate,3.40*10-8
+Copper Alloy,8.23,925,-,Silicon,100,Gold,-,317,Iron ,69 - 480,0 - 1,Arsenic,348,Benzene  C6H6,80.4,Shavings,4.1,Apple ,0.39,,,,,Barium sulfate,1.08*10-10
+Cork,0.15 - 0.2,-,-,Silver,16,Iron,-,80.2,Iron ,340,35,Artificial wool,1357,Brake Fluid Dot 3 ,205 - 140,Silk,4.3,Argon ,0.016,,,,,Barium sulfite,5.0*10-10
+Glass,2.4 - 2.8,-,-,Solder,130 - 210,Iron ,9.90 - 12.0,-,Magnesium,100 - 170,5 - 15,Asbestos,816,Brake Fluid Dot 4 ,230 - 155,Silver,1.19,Asbestos-cement board,0.744,,,,,Beryllium hydroxide,6.92*10-22
+Gold,19.32,1064,2856,Steel,120 - 1700,Iron ,12,-,Magnesium Alloy,140 - 340,2 - 20,Asphalt,920,Brake Fluid Dot 5 ,260 - 180,Tin,0.26,Asbestos-cement sheets,0.166,,,,,Bismuth arsenate,4.43*10-10
+Iron,7.87,1538,2861,Tin,110,Lead,-,35.3,Monel ,450 - 1200,2 - 50,Barium,290,Brake Fluid Dot 5.1 ,270 - 190,Water,3.7,Asbestos-cement,2.07,,,,,Bismuth iodide,7.71*10-19
+Iron ,7 - 7.4,-,-,Titanium,430,Magnesium,25.2,156,Nickel,310 - 760,2 - 50,Barytes,460,Bromine,58.8,Wood,4.17,Asbestos,0.15,,,,,Bismuth triiodite,7.71*10-19
+Iron ,7.4 - 7.8,-,-,Tungsten,56,Magnesium Alloy,26.1 - 28.8,-,Nylon,40 - 70,50,Beryllium,1020,Bromobenzene,156,Wool,4.3,Asbestos mill board,0.14,,,,,Cadmium arsenate,2.2*10-33
+Lead,11.3,327.5,1749,Zinc,59,Monel ,14,-,Rubber,7.0 - 20,100 - 800,Bismuth,130,n - Butane,-0.5,Wrought iron,5.16,Asphalt,0.75,,,,,Cadmium carbonate,1.0*10-12
+Magnesium,1.74,650,1090,,,Nickel,13,90.7,Solder,12 - 54,55 - 30,Boiler scale,800,1 - Butene,-6.25,Wrought iron,1.55,Balsa wood,0.048,,,,,Cadmium fluoride,6.44 *10-3
+Magnesium Alloy,1.77,1246,2061,,,Nylon,75.0 - 100,-,Steel,340 - 1900,3 - 40,Bone,440,Butyric acid n,162.5,Zinc,0.152,Bitumen,0.17,,,,,Cadmium hydroxide,7.2*10-15
+Monel ,8.84,1330,-,,,Platinum,-,71.6,Stone,70 - 280,-,Boron,960,Camphor,204,,,Bitumen/felt layers,0.5,,,,,Cadmium iodate,2.5*10-8
+Nickel,8.89,1455,2913,,,Rubber,130 - 200,-,Stone,20 - 200,-,Boron nitride,720,Carbolic acid ,182.2,,,Beef,0.43 - 0.48,,,,,Cadmium oxalate trihydrate,1.42*10-8
+Nylon,1.1,-,-,,,Silicon,-,148,Stone,50 - 180,-,Brass,375,Carbon Bisulfide,47.8,,,Benzene,0.16,,,,,Cadmium phosphate,2.53*10-33
+Platinum,21.4,1768,3825,,,Silver,-,429,Titanium,500,25,Brick,840,Carbon Dioxide CO2 ,-78.5,,,Beryllium,218,,,,,Calcium carbonate ,3.36*10-9
+Rubber,0.96 - 1.3,-,-,,,Solder,-,30.0 - 49.8,Titanium Alloy,900 - 970,10,Bronze,370,Carbon Disulfide CS2,46.2,,,Bismuth,8.1,,,,,Calcium carbonate ,6.0*10-9
+Silicon,2.33,1382,-,,,Steel,10.0 - 18.0,-,Tungsten,1400 - 4000,0 - 4,Brown iron ore,670,Carbon Monoxide,-192,,,Bitumen,0.17,,,,,Calcium fluoride,3.45*10-11
+Silver,10.49,961.8,2162,,,Tin,-,66.6,Wood,50 - 100,-,Cadmium,234,Carbon Tetrachloride CCl4,76.7,,,Blast furnace gas ,0.02,,,,,Calcium hydroxide,5.02*10-6
+Solder,8.17 - 11.34,215,-,,,Titanium,-,21.9,Wood,50 - 80,-,Calcium,532,Chlorine,-34.4,,,Boiler scale,1.2 - 3.5,,,,,Calcium iodate,6.47*10-6
+Steel,7.85,1425,-,,,Titanium Alloy,8.00 - 10.0,-,Wood,50 - 100,-,Calsium silicate,710,Chloroform,62.2,,,Brass,109,,,,,Calcium iodate hexahydrate,7.10 *10-7
+Stone,2.6,-,-,,,Tungsten,4.3,174,Wood,50 - 100,-,Cellulose,1300 - 1500,Cyclohexane,80.7,,,Breeze block,0.10 - 0.20,,,,,Calcium molybdate,1.46*10-8
+Stone,2 - 2.9,-,-,,,Zinc,30.2,116,,,,Cellulose acetate,1260 - 1800,Cyclopentane,49.3,,,Brick dense,1.31,,,,,Calcium oxalate monohydrate,2.32*10-9
+Stone,2.6 - 2.9,-,-,,,,,,,,,Cellulose acetate,1260 - 2100,n - Decane,174,,,Brick,0.47,,,,,Calcium phosphate,2.07*10-33
+Stone,2.6,-,-,,,,,,,,,Cellulose nitrate,1300 - 1700,Dichloromethane - see methylene chloride,,,,Brick,0.15,,,,,Calcium sulfate,4.93*10-5
+Tin,7.3,231.9,2602,,,,,,,,,Chalk,750,Diethyl ether,34.7,,,Brickwork,0.6 -1.0,,,,,Calcium sulfate dihydrate,3.14 *10-5
+Titanium,4.54,1668,3287,,,,,,,,,Charcoal,840,Dowtherm,258,,,Brickwork,1.6,,,,,Calcium sulfite hemihydrate,3.1 *10-7
+Titanium Alloy,4.51,-,-,,,,,,,,,Chromium,452,Ethane,-88.78,,,Bromine ,0.004,,,,,Cesium perchlorate,3.95*10-3
+Tungsten,19.3,3422,5555,,,,,,,,,Chrom oxide,750,Ether,34.6,,,Bronze,110,,,,,Cesium periodate,5.16 *10-6
+Wood,0.56 - 0.64,-,-,,,,,,,,,Clay,1381,Glycerin,290,,,Brown iron ore,0.58,,,,,Cobalt arsenate,6.80 *10-29
+Wood,0.48 - 0.56,-,-,,,,,,,,,Cobalt,435,Ethane C2H6,-88,,,Butter ,0.2,,,,,Cobalt carbonate,1.0 *10-10
+Wood,0.64 - 0.72,-,-,,,,,,,,,Coke,840,Ethanol,78.4,,,Cadmium,92.1,,,,,Cobalt hydroxide,5.92*10-15
+Wood,0.55 - 0.64,-,-,,,,,,,,,Concrete,880,Ethyl acetate CH3COOC2H3,77.2,,,Calcium silicate,0.05,,,,,Cobalt iodate dihydrate,1.21*10-2
+Zinc,7.14,419.5,907,,,,,,,,,Constantan,410,Ethylbenzene,136,,,Carbon,1.7,,,,,Cobalt phosphate,2.05*10-35
+Actinium,,1050,,,,,,,,,,Copper,385,Ethyl bromide C2H3Br,38.4,,,Carbon dioxide ,0.0146,,,,,Copper arsenate,7.95*10-36
+Aluminum,,660.37,,,,,,,,,,Cork,2000,Ethylene,-103.7,,,Carbon monoxide,0.0232,,,,,Copper bromide,6.27*10-9
+Americum,,994,,,,,,,,,,Diamond ,516,Ethylene bromide,131.7,,,Cast iron,58,,,,,Copper chloride,1.72*10-7
+Antimony,,630.74,,,,,,,,,,Duralium,920,Ethylene Glycol,197,,,Cellulose,0.23,,,,,Copper cyanide,3.47 *10-20
+Argon,,-189.2,,,,,,,,,,Emery,960,3 - Ethylpentane,93.5,,,Cellulose acetate,0.17 - 0.33,,,,,Copper hydroxide,1*10-20
+Arsenic,,817,,,,,,,,,,Epoxy cast resins,1000,Fluorine,-187,,,Cellulose nitrate,0.12 - 0.21,,,,,Copper iodate monohydrate,6.94 *10-8
+Astatine,,302,,,,,,,,,,Fire brick,880,Formaldehyde,-21.1,,,Cement,0.29,,,,,Copper iodide,1.27*10-12
+Barium,,725,,,,,,,,,,Fluorspar CaF2,830,Formic acid,101,,,Cement,1.73,,,,,Copper oxalate,4.43*10-10
+Berkelium,,,,,,,,,,,,Dichlorodifluoromethane R12,871,Trichlorofluoromethane refrigerant R-11,23.8,,,Ceramic materials,,,,,,Copper phosphate,1.40*10-37
+Beryllium,,1278,,,,,,,,,,Dichlorodifluoromethane R12,595,Dichlorodifluoromethane refrigerant R-12,-29.8,,,Chalk,0.09,,,,,Copper thiocyanate,1.77*10-13
+Bismuth,,271.3,,,,,,,,,,Ice ,2093,Chlorodifluoromethane refrigerant R-22,-41.2,,,Charcoal,0.084,,,,,Chromiumhydroxide,1*10-17
+Boron,,2079,,,,,,,,,,India rubber,1250,Diisobutyl,109,,,Chlorinated poly-ether,0.13,,,,,Chromiumhydroxide,1*10-30
+Bromine,,-7.2,,,,,,,,,,Glass,670,Furfurol,161.7,,,Chlorine ,0.0081,,,,,Europium hydroxide,9.38 *10-27
+Cadmium,,320.9,,,,,,,,,,Glass,753,Glycerine,290,,,Chrome Nickel Steel ,16.3,,,,,Gallium hydroxide,7.38 *10-36
+Calcium,,839,,,,,,,,,,Glass-wool,840,Glycol,197,,,Chromium,94,,,,,Iron carbonate,3.13 *10-11
+Californium,,,,,,,,,,,,Gold,129,Helium,-269,,,Chrom-oxide,0.42,,,,,Iron fluoride,2.36*10-6
+Carbon,,3652,,,,,,,,,,Granite,790,n - Heptane,98.4,,,Clay,0.15 - 1.8,,,,,Iron hydroxide,4.87*10-17
+Cerium,,798,,,,,,,,,,Graphite ,717,n - Hexane,68.7,,,Clay,0.6 - 2.5,,,,,Iron hydroxide,2.79*10-39
+Cesium,,28.4,,,,,,,,,,Gypsum,1090,Hydrogen,-253,,,Coal,0.2,,,,,Iron phosphate dihydrate,9.91*10-16
+Chlorine,,-100.98,,,,,,,,,,Helium,5193,Hydrochloric Acid,-81.7,,,Cobalt,69,,,,,Lanthanum iodate,7.50*10-12
+Chromium,,1857,,,,,,,,,,Hydrogen,14304,Hydrofluoric Acid,18.9,,,Cod ,0.54,,,,,Lead bromide,6.60*10-6
+Cobalt,,1495,,,,,,,,,,Ice,2090,Hydrogen Chloride,-81.7,,,Coke,0.184,,,,,Lead carbonate,7.40*10-14
+Copper,,1083.4,,,,,,,,,,Ingot iron,490,Hydrogen Sulfide,-60,,,Concrete,0.1 - 0.3,,,,,Lead chloride,1.70*10-5
+Curium,,1340,,,,,,,,,,Iodine,218,Iodine,184.3,,,Concrete,0.4 - 0.7,,,,,Lead chromate,3*10-13
+Dysprosium,,1409,,,,,,,,,,Iridium,134,Isopropyl Alchol,80.3,,,Concrete,1.0 - 1.8,,,,,Lead fluoride,3.3*10-8
+Einsteinium,,,,,,,,,,,,Iron,449,Isobutane,-11.72,,,Concrete,1.7,,,,,Lead hydroxide,1.43*10-20
+Erbium,,1522,,,,,,,,,,Lead,129,Isobutene,-6.9,,,Constantan,23.3,,,,,Lead iodate,3.69*10-13
+Europium,,822,,,,,,,,,,Leather,1500,Isooctane,99.2,,,Copper,401,,,,,Lead iodide,9.8*10-9
+Fermium,,,,,,,,,,,,Limestone,909,Isopentane,27.8,,,Corian ,1.06,,,,,Lead oxalate,8.5*10-9
+Fluorine,,-219.62,,,,,,,,,,Lithium,3582,Isoprene,34.1,,,Cork board,0.043,,,,,Lead selenate,1.37*10-7
+Francium,,27,,,,,,,,,,Lucite,1460,Isopropylbenzene,152,,,Cork,0.044,,,,,Lead sulfate,2.53*10-8
+Gadolinium,,1311,,,,,,,,,,Magnesia ,874,Jet fuel,163,,,Cork,0.07,,,,,Lithium carbonate,8.15*10-4
+Gallium,,29.78,,,,,,,,,,Magnesium,1050,Kerosene ,150 - 300,,,Cotton,0.04,,,,,Lithium fluoride,1.84*10-3
+Germanium,,937.4,,,,,,,,,,Magnesium alloy,1010,Linseed Oil,287,,,Cotton wool,0.029,,,,,Lithium phosphate,2.37*10-11
+Gold,,1064.434,,,,,,,,,,Manganese,460,Mercury,356.9,,,Carbon Steel,54,,,,,Magnesium ammonium phosphate,3*10-13
+Hafnium,,2227,,,,,,,,,,Marble,880,Methane,-161.5,,,Cotton Wool insulation,0.029,,,,,Magnesium carbonate,6.82*10-6
+Helium,,-272.2,,,,,,,,,,Mercury,140,Methanol ,66,,,Diamond,1000,,,,,Magnesium carbonate pentahydrate,3.79*10-6
+Holmium,,1470,,,,,,,,,,Mica,880,Methyl Acetate,57.2,,,Diatomaceous earth ,0.06,,,,,Magnesium carbonate trihydrate,2.38*10-6
+Hydrogen,,-259.14,,,,,,,,,,Molybdenum,272,Methyl Bromide,3.3,,,Diatomite,0.12,,,,,Magnesium fluoride,5.16*10-11
+Indium,,156.61,,,,,,,,,,Neon,1030,Metyl Chloride,-23.9,,,Duralium,129,,,,,Magnesium hydroxide,5.61*10-12
+Iodine,,113.5,,,,,,,,,,Nickel,461,Methylene Chloride,39.8,,,Earth,1.5,,,,,Magnesium oxalate dihydrate,4.83*10-6
+Iridium,,2410,,,,,,,,,,Nitrogen,1040,Methyl Ether ,-25,,,Ebonite,0.17,,,,,Magnesium phosphate,1.04*10-24
+Iron,,1535,,,,,,,,,,Nylon-6,1600,Methylcyclohexane,101,,,Emery,11.6,,,,,Manganese carbonate,2.24*10-11
+Krypton,,-156.6,,,,,,,,,,Nylon-66,1700,Methylcyclopentane,71.8,,,Engine Oil,0.15,,,,,Manganese iodate,4.37*10-7
+Lanthanum,,920,,,,,,,,,,Olive oil,1790,Methyl iodide,42.6,,,Ethane ,0.018,,,,,Manganese oxalate dihydrate,1.70*10-7
+Lawrencium,,,,,,,,,,,,Osmium,130,2 - Methylhexane,90.1,,,Ether,0.14,,,,,Mercury bromide,6.40*10-23
+Lead,,327.502,,,,,,,,,,Oxygen,918,3 - Methylhexane,91.8,,,Ethylene ,0.017,,,,,Mercury bromide,6.2*10-20
+Lithium,,180.54,,,,,,,,,,Palladium,240,2 - Methylpentane,60.3,,,Epoxy,0.35,,,,,Mercury carbonate,3.6*10-17
+Lutetium,,1656,,,,,,,,,,Paper,1336,3 - Methylpentane,63.3,,,Ethylene glycol,0.25,,,,,Mercury chloride,1.43*10-18
+Magnesium,,648.8,,,,,,,,,,Paraffin,3260,Naphthalene ,217.9,,,Feathers,0.034,,,,,Mercury fluoride,3.10*10-6
+Manganese,,1244,,,,,,,,,,Peat,1900,Neohexane,49.7,,,Felt insulation,0.04,,,,,Mercuryhydroxide,2*10-24
+Mendelevium,,,,,,,,,,,,Perlite,387,Neopentane,9.5,,,Fiberglass,0.04,,,,,Mercury hydroxide,4*10-26
+Mercury,,-38.87,,,,,,,,,,Phenolic cast resins,1250 - 1670,Nitric Acid,120,,,Fiber insulating board,0.048,,,,,Mercury iodide,5.2*10-29
+Molybdenum,,2617,,,,,,,,,,Phenol-formaldehyde molding compounds,2500 - 6000,Nitrobenzene,210.9,,,Fiber hardboard,0.2,,,,,Mercury,2.9*10-29
+Neodymium,,1010,,,,,,,,,,Phosphorbonze,360,n - Nonane,150.7,,,Fire-clay brick 500oC,1.4,,,,,Mercury oxalate,1.75*10-13
+Neon,,-248.67,,,,,,,,,,Phosphorus,800,Nitric Acid,120,,,Fluorine ,0.0254,,,,,Mercury sulfate,6.5*10-7
+Neptunium,,640,,,,,,,,,,Pinchbeck,380,Nitrogen,-196,,,Foam glass,0.045,,,,,Mercury thiocyanate,3.2*10-20
+Nickel,,1453,,,,,,,,,,Pit coal,1020,n - Octane,125.6,,,Dichlorodifluoromethane R-12 ,0.007,,,,,Neodymium carbonate,1.08*10-33
+Niobium,,2468,,,,,,,,,,Platinium,133,Olive oil,300,,,Dichlorodifluoromethane R-12 ,0.09,,,,,Nickel carbonate,1.42*10-7
+Nitrogen,,-209.86,,,,,,,,,,Plutonium,140,Oxygen,-183,,,Gasoline,0.15,,,,,Nickel hydroxide,5.48*10-16
+Nobelium,,,,,,,,,,,,Polycarbonates,1170 - 1250,n - Pentane,36,,,Glass,1.05,,,,,Nickel iodate,4.71*10-5
+Osmium,,3045,,,,,,,,,,Polyethylene terephthalate,1250,1 - Pentene,30,,,Glass,0.18,,,,,Nickel phosphate,4.74*10-32
+Oxygen,,-218.4,,,,,,,,,,Polyimide aromatics,1120,Petrol,95,,,Glass,0.76,,,,,Palladium thiocyanate,4.39*10-23
+Palladium,,1554,,,,,,,,,,Polyisoprene natural rubber,1880,Petroleum,210,,,Glass,0.96,,,,,Potassium hexachloroplatinate,7.48*10-6
+Phosphorus,,44.1,,,,,,,,,,Polyisoprene hard rubber,1380,Phenol,182,,,Glass,0.04,,,,,Potassium perchlorate,1.05*10-2
+Platinum,,1772,,,,,,,,,,Polymethylmethacrylate,1500,Phosgene,8.3,,,Glycerol,0.28,,,,,Potassium periodate,3.71*10-4
+Plutonium,,641,,,,,,,,,,Polypropylene,1920,Phosphoric Acid,213,,,Gold,310,,,,,Praseodymium hydroxide,3.39*10-24
+Polonium,,254,,,,,,,,,,Polystyrene,1300 - 1500,Propane,-42.04,,,Granite,1.7 - 4.0,,,,,Radium iodate,1.16*10-9
+Potassium,,63.25,,,,,,,,,,Polytetrafluoroethylene moulding compound,1000,Propene,-47.72,,,Graphite,168,,,,,Radium sulfate,3.66*10-11
+Praceodymium,,931,,,,,,,,,,Polytetrafluoroethylene ,1172,Propionic acid,141,,,Gravel,0.7,,,,,Rubidium perchlorate,3.00*10-3
+Promethium,,1080,,,,,,,,,,Polyurethane cast liquid,1800,Propylene,-47.7,,,Ground or soil,1.4,,,,,Scandium fluoride,5.81*10-24
+Protactinium,,1600,,,,,,,,,,Polyurethane elastomer,1800,Propylene glycol,187,,,Ground or soil,1,,,,,Scandium hydroxide,2.22*10-31
+Radium,,700,,,,,,,,,,Polyvinylchloride PVC,840 - 1170,Saturated brine,108,,,Ground or soil,0.5,,,,,Silver acetate,1.94*10-3
+Radon,,-71,,,,,,,,,,Porcelain,1085,Styrene,145,,,Ground or soil,0.33,,,,,Silver arsenate,1.03*10-22
+Rhenium,,3180,,,,,,,,,,Potassium,1000,Sulphur,444.6,,,Gypsum board,0.17,,,,,Silver bromate,5.38*10-5
+Rhodium,,1965,,,,,,,,,,Potassium chloride,680,Sulfuric Acid,330,,,Hairfelt,0.05,,,,,Silver bromide,5.35*10-13
+Rubidium,,38.89,,,,,,,,,,Pyroceram,710,Sulfur Dioxide,-10,,,Hardboard high density,0.15,,,,,Silver carbonate,8.46*10-12
+Ruthenium,,2310,,,,,,,,,,Quartz,730,Tar,300,,,Hardwoods ,0.16,,,,,Silver chloride,1.77*10-10
+Samarium,,1072,,,,,,,,,,Quartz glass,700,Toluene,110.6,,,Helium ,0.142,,,,,Silver chromate,1.12*10-12
+Scandium,,1539,,,,,,,,,,Red metal,381,Triptane,80.9,,,Honey ,0.5,,,,,Silver cyanide,5.97*10-17
+Selenium,,217,,,,,,,,,,Rhenium,140,Turpentine,160,,,Hydrochloric acid ,0.013,,,,,Silver hydroxide,2*10-8
+Silicon,,1410,,,,,,,,,,Rhodium,240,Water,100,,,Hydrogen ,0.168,,,,,Silver iodate,3.17*10-8
+Silver,,961.93,,,,,,,,,,Rosin,1300,Water,100.7,,,Hydrogen sulfide ,0.013,,,,,Silver iodide,8.52*10-17
+Sodium,,97.81,,,,,,,,,,Rubidium,330,o - Xylene,142.7,,,Ice ,2.18,,,,,Silver oxalate,5.40*10-12
+Strontium,,769,,,,,,,,,,Salt,880,,,,,Ingot iron,47 - 58,,,,,Silver phosphate,8.89*10-17
+Sulfur,,112.8,,,,,,,,,,Sand,830,,,,,Insulation materials,0.035 - 0.16,,,,,Silver sulfate,1.20*10-5
+Tantalum,,2996,,,,,,,,,,Sandstone,710,,,,,Iodine,0.44,,,,,Silver sulfite,1.50*10-14
+Technetium,,2172,,,,,,,,,,Scandium,568,,,,,Iridium,147,,,,,Silver thiocyanate,1.03*10-12
+Tellurium,,449.5,,,,,,,,,,Selenium,330,,,,,Iron,80,,,,,Strontium arsenate,4.29*10-19
+Terbium,,1360,,,,,,,,,,Silicon,705,,,,,Iron,59,,,,,Strontium carbonate,5.60*10-10
+Thallium,,303.5,,,,,,,,,,silicon carbide,670,,,,,Iron,55,,,,,Strontium fluoride,4.33*10-9
+Thorium,,1750,,,,,,,,,,Silver,235,,,,,Iron-oxide,0.58,,,,,Strontium iodate,1.14*10-7
+Thulium,,1545,,,,,,,,,,Slate,760,,,,,Kapok insulation,0.034,,,,,Strontium iodate hexahydrate,4.55*10-7
+Tin,,231.9681,,,,,,,,,,Sodium,1260,,,,,Kerosene,0.15,,,,,Strontium iodate monohydrate,3.77*10-7
+Titanium,,1660,,,,,,,,,,Soil,800,,,,,Krypton ,0.0088,,,,,Strontium oxalate,5*10-8
+Tungsten,,3410,,,,,,,,,,Soil,1480,,,,,Lead Pb,35,,,,,Strontium sulfate,3.44*10-7
+Uranium,,1132,,,,,,,,,,Soot,840,,,,,Leather,0.14,,,,,Thallium bromate,1.10*10-4
+Vanadium,,1890,,,,,,,,,,Snow,2090,,,,,Limestone,1.26 - 1.33,,,,,Thallium bromide,3.71*10-6
+Xenon,,-111.9,,,,,,,,,,Steatite,830,,,,,Lithium,301,,,,,Thallium chloride,1.86*10-4
+Ytterbium,,824,,,,,,,,,,Steel,490,,,,,Magnesia insulation ,0.07,,,,,Thallium chromate,8.67*10-13
+Yttrium,,1523,,,,,,,,,,Sulfur,700,,,,,Magnesite,4.15,,,,,Thallium hydroxide,1.68*10-44
+Zinc,,419.58,,,,,,,,,,Tantalium,138,,,,,Magnesium,156,,,,,Thallium iodate,3.12*10-6
+Zirconium,,1852,,,,,,,,,,Tellurium,201,,,,,Magnesium alloy,70 - 145,,,,,Thallium iodine,5.54*10-8
+,,,,,,,,,,,,Thorium,140,,,,,Marble,2.08 - 2.94,,,,,Thallium thiocyanate,1.57*10-4
+,,,,,,,,,,,,Timber,1400,,,,,Mercury,8.3,,,,,Tin hydroxide,5.45*10-27
+,,,,,,,,,,,,Timber,1600,,,,,Methane ,0.03,,,,,Vanadium hydroxide,4*10-16
+,,,,,,,,,,,,Timber,1900,,,,,Methanol,0.21,,,,,Vanadium hydroxide,4*10-35
+,,,,,,,,,,,,Timber,1400,,,,,Mica,0.71,,,,,Yttrium carbonate,1.03*10-31
+,,,,,,,,,,,,Timber,1600,,,,,Milk,0.53,,,,,Yttrium fluoride,8.62*10-21
+,,,,,,,,,,,,Timber,2400,,,,,Mineral wool insulation materials,0.04,,,,,Yttrium hydroxide,1.00*10-22
+,,,,,,,,,,,,Timber,1300,,,,,Molybdenum,138,,,,,Yttrium iodate,1.12*10-10
+,,,,,,,,,,,,Timber,2500,,,,,Monel,26,,,,,Zinc arsenate,2.8*10-28
+,,,,,,,,,,,,Timber,1300,,,,,Neon ,0.046,,,,,Zinc carbonate,1.46*10-10
+,,,,,,,,,,,,Timber,1500,,,,,Neoprene,0.05,,,,,Zinc carbonate monohydrate,5.42*10-11
+,,,,,,,,,,,,Timber,1500,,,,,Nickel,91,,,,,Zinc fluoride,3.04*10-2
+,,,,,,,,,,,,Timber,1400,,,,,Nitric oxide ,0.0238,,,,,Zinc hydroxide,3*10-17
+,,,,,,,,,,,,Tin,228,,,,,Nitrogen ,0.024,,,,,Zinc iodate dihydrate,4.1*10-6
+,,,,,,,,,,,,Titanium,523,,,,,Nitrous oxide ,0.0151,,,,,Zinc oxalate dihydrate,1.38*10-9
+,,,,,,,,,,,,Tungsten,132,,,,,Nylon 6,0.25,,,,,Zinc selenide,3.6*10-26
+,,,,,,,,,,,,Tungsten carbide,171,,,,,Oil,0.15,,,,,Zinc selenite monohydrate,1.59*10-7
+,,,,,,,,,,,,Uranium,116,,,,,Olive oil,0.17,,,,,,
+,,,,,,,,,,,,Vanadium,500,,,,,Oxygen ,0.024,,,,,,
+,,,,,,,,,,,,Water,4182,,,,,Palladium,70.9,,,,,,
+,,,,,,,,,,,,Water,3985,,,,,Paper,0.05,,,,,,
+,,,,,,,,,,,,Wet mud,2512,,,,,Paraffin Wax,0.25,,,,,,
+,,,,,,,,,,,,Wood,1300 - 2400,,,,,Peat,0.08,,,,,,
+,,,,,,,,,,,,Zinc,388,,,,,Perlite,0.031,,,,,,
+,,,,,,,,,,,,,,,,,,Perlite,0.00137,,,,,,
+,,,,,,,,,,,,,,,,,,Phenolic cast resins,0.15,,,,,,
+,,,,,,,,,,,,,,,,,,Phenol-formaldehyde moulding compounds,0.13 - 0.25,,,,,,
+,,,,,,,,,,,,,,,,,,Phosphorbronze,110,,,,,,
+,,,,,,,,,,,,,,,,,,Pinchbeck,159,,,,,,
+,,,,,,,,,,,,,,,,,,Pitch,0.13,,,,,,
+,,,,,,,,,,,,,,,,,,Pit coal,0.24,,,,,,
+,,,,,,,,,,,,,,,,,,Plaster light,0.2,,,,,,
+,,,,,,,,,,,,,,,,,,Plaster,0.47,,,,,,
+,,,,,,,,,,,,,,,,,,Plaster,0.71,,,,,,
+,,,,,,,,,,,,,,,,,,Plaster,0.28,,,,,,
+,,,,,,,,,,,,,,,,,,Plasticine,0.65 - 0.8,,,,,,
+,,,,,,,,,,,,,,,,,,Plastics,0.03,,,,,,
+,,,,,,,,,,,,,,,,,,Platinum,70,,,,,,
+,,,,,,,,,,,,,,,,,,Plutonium,6.7,,,,,,
+,,,,,,,,,,,,,,,,,,Plywood,0.13,,,,,,
+,,,,,,,,,,,,,,,,,,Polycarbonate,0.19,,,,,,
+,,,,,,,,,,,,,,,,,,Polyester,0.05,,,,,,
+,,,,,,,,,,,,,,,,,,Polyethylene low density,0.33,,,,,,
+,,,,,,,,,,,,,,,,,,Polyethylene high density,0.42 - 0.51,,,,,,
+,,,,,,,,,,,,,,,,,,Polyisoprene natural rubber,0.13,,,,,,
+,,,,,,,,,,,,,,,,,,Polyisoprene hard rubber,0.16,,,,,,
+,,,,,,,,,,,,,,,,,,Polymethylmethacrylate,0.17 - 0.25,,,,,,
+,,,,,,,,,,,,,,,,,,Polypropylene,0.1 - 0.22,,,,,,
+,,,,,,,,,,,,,,,,,,Polystyrene,0.03,,,,,,
+,,,,,,,,,,,,,,,,,,Polystyrol,0.043,,,,,,
+,,,,,,,,,,,,,,,,,,Polyurethane foam,0.03,,,,,,
+,,,,,,,,,,,,,,,,,,Porcelain,1.5,,,,,,
+,,,,,,,,,,,,,,,,,,Potassium,1,,,,,,
+,,,,,,,,,,,,,,,,,,Potato,0.55,,,,,,
+,,,,,,,,,,,,,,,,,,Propane ,0.015,,,,,,
+,,,,,,,,,,,,,,,,,,Polytetrafluoroethylene ,0.25,,,,,,
+,,,,,,,,,,,,,,,,,,Polyvinylchloride,0.19,,,,,,
+,,,,,,,,,,,,,,,,,,Pyrex glass,1.005,,,,,,
+,,,,,,,,,,,,,,,,,,Quartz mineral,3,,,,,,
+,,,,,,,,,,,,,,,,,,Radon ,0.0033,,,,,,
+,,,,,,,,,,,,,,,,,,Red metal,128,,,,,,
+,,,,,,,,,,,,,,,,,,Rhenium,71,,,,,,
+,,,,,,,,,,,,,,,,,,Rhodium,88,,,,,,
+,,,,,,,,,,,,,,,,,,Rock,2 - 7,,,,,,
+,,,,,,,,,,,,,,,,,,Rock,0.5 - 2.5,,,,,,
+,,,,,,,,,,,,,,,,,,Rock Wool insulation,0.045,,,,,,
+,,,,,,,,,,,,,,,,,,Rosin,0.32,,,,,,
+,,,,,,,,,,,,,,,,,,Rubber,0.045,,,,,,
+,,,,,,,,,,,,,,,,,,Rubber,0.13,,,,,,
+,,,,,,,,,,,,,,,,,,Rubidium,58,,,,,,
+,,,,,,,,,,,,,,,,,,Salmon ,0.5,,,,,,
+,,,,,,,,,,,,,,,,,,Sand,0.15 - 0.25,,,,,,
+,,,,,,,,,,,,,,,,,,Sand,0.25 - 2,,,,,,
+,,,,,,,,,,,,,,,,,,Sand,2 - 4,,,,,,
+,,,,,,,,,,,,,,,,,,Sandstone,1.7,,,,,,
+,,,,,,,,,,,,,,,,,,Sawdust,0.08,,,,,,
+,,,,,,,,,,,,,,,,,,Selenium,0.2,,,,,,
+,,,,,,,,,,,,,,,,,,Sheep wool,0.039,,,,,,
+,,,,,,,,,,,,,,,,,,Silica aerogel,0.02,,,,,,
+,,,,,,,,,,,,,,,,,,Silicon cast resin,0.15 - 0.32,,,,,,
+,,,,,,,,,,,,,,,,,,Silicon carbide,15.2,,,,,,
+,,,,,,,,,,,,,,,,,,Silicon oil,0.1,,,,,,
+,,,,,,,,,,,,,,,,,,Silver,429,,,,,,
+,,,,,,,,,,,,,,,,,,Slag wool,0.042,,,,,,
+,,,,,,,,,,,,,,,,,,Slate,2.01,,,,,,
+,,,,,,,,,,,,,,,,,,Snow ,0.05 - 0.25,,,,,,
+,,,,,,,,,,,,,,,,,,Sodium,135,,,,,,
+,,,,,,,,,,,,,,,,,,Softwoods ,0.12,,,,,,
+,,,,,,,,,,,,,,,,,,Soil,1.1,,,,,,
+,,,,,,,,,,,,,,,,,,Soil,0.15 - 2,,,,,,
+,,,,,,,,,,,,,,,,,,Soil,0.6 - 4,,,,,,
+,,,,,,,,,,,,,,,,,,Soot,0.07,,,,,,
+,,,,,,,,,,,,,,,,,,Steam,0.0184,,,,,,
+,,,,,,,,,,,,,,,,,,Steam,0.0188,,,,,,
+,,,,,,,,,,,,,,,,,,Steatite,2,,,,,,
+,,,,,,,,,,,,,,,,,,Steel,43,,,,,,
+,,,,,,,,,,,,,,,,,,Stainless Steel,16,,,,,,
+,,,,,,,,,,,,,,,,,,Straw slab insulation,0.09,,,,,,
+,,,,,,,,,,,,,,,,,,Styrofoam,0.033,,,,,,
+,,,,,,,,,,,,,,,,,,Sulfur dioxide ,0.0086,,,,,,
+,,,,,,,,,,,,,,,,,,Sulfur,0.2,,,,,,
+,,,,,,,,,,,,,,,,,,Sugars,0.087 - 0.22,,,,,,
+,,,,,,,,,,,,,,,,,,Tantalum,54,,,,,,
+,,,,,,,,,,,,,,,,,,Tar,0.19,,,,,,
+,,,,,,,,,,,,,,,,,,Tellurium,4.9,,,,,,
+,,,,,,,,,,,,,,,,,,Thorium,38,,,,,,
+,,,,,,,,,,,,,,,,,,Timber,0.17,,,,,,
+,,,,,,,,,,,,,,,,,,Timber,0.16,,,,,,
+,,,,,,,,,,,,,,,,,,Timber,0.14,,,,,,
+,,,,,,,,,,,,,,,,,,Timber,0.12,,,,,,
+,,,,,,,,,,,,,,,,,,Timber,0.16,,,,,,
+,,,,,,,,,,,,,,,,,,Timber,0.17,,,,,,
+,,,,,,,,,,,,,,,,,,Timber,0.14,,,,,,
+,,,,,,,,,,,,,,,,,,Timber,0.19,,,,,,
+,,,,,,,,,,,,,,,,,,Timber,0.14,,,,,,
+,,,,,,,,,,,,,,,,,,Timber,0.15,,,,,,
+,,,,,,,,,,,,,,,,,,Timber,0.15,,,,,,
+,,,,,,,,,,,,,,,,,,Timber,0.15,,,,,,
+,,,,,,,,,,,,,,,,,,Tin Sn,67,,,,,,
+,,,,,,,,,,,,,,,,,,Titanium,22,,,,,,
+,,,,,,,,,,,,,,,,,,Tungsten,174,,,,,,
+,,,,,,,,,,,,,,,,,,Uranium,27.6,,,,,,
+,,,,,,,,,,,,,,,,,,Urethane foam,0.021,,,,,,
+,,,,,,,,,,,,,,,,,,Vacuum,0,,,,,,
+,,,,,,,,,,,,,,,,,,Vermiculite granules,0.065,,,,,,
+,,,,,,,,,,,,,,,,,,Vinyl ester,0.25,,,,,,
+,,,,,,,,,,,,,,,,,,Water,0.606,,,,,,
+,,,,,,,,,,,,,,,,,,Water,,,,,,,
+,,,,,,,,,,,,,,,,,,Wax,0.084,,,,,,
+,,,,,,,,,,,,,,,,,,Wheat flour,0.45,,,,,,
+,,,,,,,,,,,,,,,,,,White metal,35 - 70,,,,,,
+,,,,,,,,,,,,,,,,,,Wood,0.17,,,,,,
+,,,,,,,,,,,,,,,,,,Wool,0.07,,,,,,
+,,,,,,,,,,,,,,,,,,Wood wool,0.1 - 0.15,,,,,,
+,,,,,,,,,,,,,,,,,,Xenon ,0.0051,,,,,,
+,,,,,,,,,,,,,,,,,,Zinc Zn,116,,,,,,

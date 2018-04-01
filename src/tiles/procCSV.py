@@ -1,8 +1,6 @@
 import csv, json
 from icecream import ic
 
-t1,t2,t3,t4 = {},{},{},{}
-
 def parseNumbers(string):
     arr = string.split(" ")
     out = []
@@ -12,38 +10,53 @@ def parseNumbers(string):
         except:
             continue
     # if the value is a single dash return 0
-    if len(arr) == 1 and "-" in arr[0]:
-        return [0]
-    return out
+    if len(out) == 0 or "-" in arr[0]:
+        return None
+    return sum(out) / len(out)
+
+def parseHeader(arr):
+    headers = []
+    last_ind = 0
+    sum_ind = 0
+    while(True):
+        try:
+            index = arr[1:].index("Material")+1
+            #ic(arr)
+            #ic(index)
+            headers.append(slice(last_ind, last_ind+index))
+            last_ind += index
+            arr = arr[index:]
+            if(len(arr) == 0):
+                return headers
+        except:
+            return headers
 
 with open("materials.csv", "r") as f:
     reader = csv.reader(f, quotechar='"')
+    header_slices = []
     header = []
+    materials = {}
     for i, row in enumerate(reader):
         if i == 0:
-            header = row[0:3] + row[5:5] + row[7:8] + row[10:12]
-            ic(header)
-            header = ["material", "density", "melting_point", "thermal_expansion", "yield_stress", "ultimate_stress"]
-            continue
-        t1[row[0]] = row[1:3]
-        t2[row[4]] = row[5:5]
-        t3[row[6]] = row[7:8]
-        t4[row[9]] = row[10:12]
+            # Parse header
+            header_slices = parseHeader(row)
+            header = [j.strip() for j in row]
+        else:
+            # Iterate over slices
+            for sl in header_slices:
+                if not materials.get(row[sl.start]):
+                    materials[row[sl.start]] = {}
+                # Iterate over items in slice
+                if row[sl.start] == "Aluminum":
+                    ic(row)
+                    ic(sl)
+                for j in range(sl.start+1, sl.stop):
+                    v = parseNumbers(row[j])
+                    if not materials[row[sl.start]].get(header[j]) and v:
+                        materials[row[sl.start]][header[j]] = v
 
-    combined = {}
+    materials.pop('')
 
-    for k in t1:
-        if t2.get(k) != None and t3.get(k) != None and t4.get(k) != None:
-            combined[k] = t1[k] + t2[k] + t3[k] + t4[k]
-
-    classified = {}
-
-    for mat in combined:
-        classified[mat] = {}
-        for i, val in enumerate(combined[mat]):
-            vals = parseNumbers(val)
-            classified[mat][header[i+1]] = sum(vals) / len(vals)
-
-    #ic(classified)
+    #ic(converted)
     with open("materials.json", "w+") as f:
-        f.write(json.dumps(classified, indent=4, sort_keys=True))
+        f.write(json.dumps(materials, indent=4, sort_keys=True))

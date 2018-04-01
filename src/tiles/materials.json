@@ -1,79 +1,1686 @@
 {
-    "Aluminum Alloy": {
-        "density": 2.7199999999999998,
-        "melting_point": 612.5,
-        "thermal_expansion": 23.0,
-        "ultimate_stress": 325.0,
-        "yield_stress": 267.5
+    "1 - Butene": {},
+    "1 - Pentene": {
+        "Boiling Points at Atmospheric Pressure": 30.0
     },
-    "Aluminum [Al]": {
-        "density": 2.71,
-        "melting_point": 660.3,
-        "thermal_expansion": 23.0,
-        "ultimate_stress": 70.0,
-        "yield_stress": 20.0
+    "2 - Methylhexane": {
+        "Boiling Points at Atmospheric Pressure": 90.1
+    },
+    "2 - Methylpentane": {
+        "Boiling Points at Atmospheric Pressure": 60.3
+    },
+    "3 - Ethylpentane": {
+        "Boiling Points at Atmospheric Pressure": 93.5
+    },
+    "3 - Methylhexane": {
+        "Boiling Points at Atmospheric Pressure": 91.8
+    },
+    "3 - Methylpentane": {
+        "Boiling Points at Atmospheric Pressure": 63.3
+    },
+    "Acetaldehyde CH3CHO": {
+        "Boiling Points at Atmospheric Pressure": 20.8
+    },
+    "Acetals": {
+        "Specific Heat (J/kgoC)": 1460.0
+    },
+    "Acetic acid anhydride 2O": {
+        "Boiling Points at Atmospheric Pressure": 139.0
+    },
+    "Acetone": {
+        "Thermal Conductivity - k - W/": 0.16
+    },
+    "Acetone CH3COCH3": {
+        "Boiling Points at Atmospheric Pressure": 50.5
+    },
+    "Acetylene": {},
+    "Acetylene ": {
+        "Thermal Conductivity - k - W/": 0.018
+    },
+    "Acrylic": {
+        "Thermal Conductivity - k - W/": 0.2
+    },
+    "Actinium": {
+        "Melting Point": 1050.0
+    },
+    "Agate": {
+        "Specific Heat (J/kgoC)": 800.0,
+        "Thermal Conductivity - k - W/": 10.9
+    },
+    "Air": {
+        "Specific Heat (J/kgoC)": 1005.0,
+        "Thermal Conductivity - k - W/": 0.0262
+    },
+    "Alcohol": {
+        "Specific Heat (J/kgoC)": 2440.0,
+        "Thermal Conductivity - k - W/": 0.17
+    },
+    "Alcohol - allyl": {
+        "Boiling Points at Atmospheric Pressure": 97.2
+    },
+    "Alcohol - butyl-n": {
+        "Boiling Points at Atmospheric Pressure": 117.0
+    },
+    "Alcohol - ethyl  C2H5OH": {
+        "Boiling Points at Atmospheric Pressure": 79.0
+    },
+    "Alcohol - methyl  CH3OH": {
+        "Boiling Points at Atmospheric Pressure": 64.7
+    },
+    "Alcohol - propyl": {
+        "Boiling Points at Atmospheric Pressure": 97.5
+    },
+    "Alumina": {
+        "Specific Heat (J/kgoC)": 718.0
+    },
+    "Aluminum": {
+        "Boiling Point": 2519.0,
+        "Density": 2.71,
+        "Electric Resistivity": 27.0,
+        "Elongation": 60.0,
+        "Melting Point": 660.3,
+        "Specific Heat (J/kgoC)": 897.0,
+        "Tensile Strength": 70.0,
+        "Thermal Conductivity": 237.0,
+        "Thermal Conductivity - k - W/": 205.0,
+        "Thermal Expansion Coefficient": 23.0
+    },
+    "Aluminum Alloy": {
+        "Density": 2.7199999999999998,
+        "Electric Resistivity": 50.0,
+        "Elongation": 23.0,
+        "Melting Point": 612.5,
+        "Tensile Strength": 325.0,
+        "Thermal Expansion Coefficient": 23.0
+    },
+    "Aluminum Brass": {
+        "Thermal Conductivity - k - W/": 121.0
+    },
+    "Aluminum Oxide": {
+        "Thermal Conductivity - k - W/": 30.0
+    },
+    "Aluminum bronze": {
+        "Specific Heat (J/kgoC)": 436.0
+    },
+    "Americum": {
+        "Melting Point": 994.0
+    },
+    "Ammonia": {
+        "Specific Heat (J/kgoC)": 4700.0
+    },
+    "Ammonia ": {
+        "Thermal Conductivity - k - W/": 0.0249
+    },
+    "Aniline": {
+        "Boiling Points at Atmospheric Pressure": 184.4
+    },
+    "Antimony": {
+        "Melting Point": 630.74,
+        "Specific Heat (J/kgoC)": 209.0,
+        "Thermal Conductivity - k - W/": 18.5
+    },
+    "Apple ": {
+        "Thermal Conductivity - k - W/": 0.39
+    },
+    "Argon": {
+        "Specific Heat (J/kgoC)": 520.0
+    },
+    "Argon ": {
+        "Thermal Conductivity - k - W/": 0.016
+    },
+    "Arsenic": {
+        "Melting Point": 817.0,
+        "Specific Heat (J/kgoC)": 348.0
+    },
+    "Artificial wool": {
+        "Specific Heat (J/kgoC)": 1357.0
+    },
+    "Asbestos": {
+        "Specific Heat (J/kgoC)": 816.0,
+        "Thermal Conductivity - k - W/": 0.15
+    },
+    "Asbestos mill board": {
+        "Thermal Conductivity - k - W/": 0.14
+    },
+    "Asbestos-cement": {
+        "Thermal Conductivity - k - W/": 2.07
+    },
+    "Asbestos-cement board": {
+        "Thermal Conductivity - k - W/": 0.744
+    },
+    "Asbestos-cement sheets": {
+        "Thermal Conductivity - k - W/": 0.166
+    },
+    "Asphalt": {
+        "Specific Heat (J/kgoC)": 920.0,
+        "Thermal Conductivity - k - W/": 0.75
+    },
+    "Astatine": {
+        "Melting Point": 302.0
+    },
+    "Balsa wood": {
+        "Thermal Conductivity - k - W/": 0.048
+    },
+    "Barium": {
+        "Melting Point": 725.0,
+        "Specific Heat (J/kgoC)": 290.0
+    },
+    "Barytes": {
+        "Specific Heat (J/kgoC)": 460.0
+    },
+    "Beef": {
+        "Thermal Conductivity - k - W/": 0.45499999999999996
+    },
+    "Benzene": {
+        "Thermal Conductivity - k - W/": 0.16
+    },
+    "Benzene  C6H6": {
+        "Boiling Points at Atmospheric Pressure": 80.4
+    },
+    "Berkelium": {},
+    "Beryllium": {
+        "Melting Point": 1278.0,
+        "Specific Heat (J/kgoC)": 1020.0,
+        "Thermal Conductivity - k - W/": 218.0
+    },
+    "Bismuth": {
+        "Melting Point": 271.3,
+        "Specific Heat (J/kgoC)": 130.0,
+        "Thermal Conductivity - k - W/": 8.1
+    },
+    "Bitumen": {
+        "Thermal Conductivity - k - W/": 0.17
+    },
+    "Bitumen/felt layers": {
+        "Thermal Conductivity - k - W/": 0.5
+    },
+    "Black body": {
+        "Radiation Constant": 5.7
+    },
+    "Blast furnace gas ": {
+        "Thermal Conductivity - k - W/": 0.02
+    },
+    "Boiler scale": {
+        "Specific Heat (J/kgoC)": 800.0,
+        "Thermal Conductivity - k - W/": 2.35
+    },
+    "Bone": {
+        "Specific Heat (J/kgoC)": 440.0
+    },
+    "Boron": {
+        "Melting Point": 2079.0,
+        "Specific Heat (J/kgoC)": 960.0
+    },
+    "Boron nitride": {
+        "Specific Heat (J/kgoC)": 720.0
+    },
+    "Brake Fluid Dot 3 ": {
+        "Boiling Points at Atmospheric Pressure": 172.5
+    },
+    "Brake Fluid Dot 4 ": {
+        "Boiling Points at Atmospheric Pressure": 192.5
+    },
+    "Brake Fluid Dot 5 ": {
+        "Boiling Points at Atmospheric Pressure": 220.0
+    },
+    "Brake Fluid Dot 5.1 ": {
+        "Boiling Points at Atmospheric Pressure": 230.0
     },
     "Brass": {
-        "density": 8.575,
-        "melting_point": 930.0,
-        "thermal_expansion": 20.15,
-        "ultimate_stress": 410.0,
-        "yield_stress": 310.0
+        "Density": 8.575,
+        "Electric Resistivity": 40.5,
+        "Elongation": 32.0,
+        "Melting Point": 930.0,
+        "Radiation Constant": 0.152,
+        "Specific Heat (J/kgoC)": 375.0,
+        "Tensile Strength": 410.0,
+        "Thermal Conductivity - k - W/": 109.0,
+        "Thermal Expansion Coefficient": 20.15
+    },
+    "Breeze block": {
+        "Thermal Conductivity - k - W/": 0.15000000000000002
+    },
+    "Brick": {
+        "Density": 2.1,
+        "Radiation Constant": 5.16,
+        "Specific Heat (J/kgoC)": 840.0,
+        "Tensile Strength": 38.5,
+        "Thermal Conductivity - k - W/": 0.47,
+        "Thermal Expansion Coefficient": 6.0
+    },
+    "Brick dense": {
+        "Thermal Conductivity - k - W/": 1.31
+    },
+    "Brickwork": {
+        "Thermal Conductivity - k - W/": -0.2
+    },
+    "Bromine": {
+        "Boiling Points at Atmospheric Pressure": 58.8
+    },
+    "Bromine ": {
+        "Thermal Conductivity - k - W/": 0.004
+    },
+    "Bromobenzene": {
+        "Boiling Points at Atmospheric Pressure": 156.0
+    },
+    "Bronze": {
+        "Density": 8.3,
+        "Elongation": 32.5,
+        "Melting Point": 1050.0,
+        "Specific Heat (J/kgoC)": 370.0,
+        "Tensile Strength": 515.0,
+        "Thermal Conductivity - k - W/": 110.0,
+        "Thermal Expansion Coefficient": 19.5
+    },
+    "Brown iron ore": {
+        "Specific Heat (J/kgoC)": 670.0,
+        "Thermal Conductivity - k - W/": 0.58
+    },
+    "Butter ": {
+        "Thermal Conductivity - k - W/": 0.2
+    },
+    "Butyric acid n": {
+        "Boiling Points at Atmospheric Pressure": 162.5
+    },
+    "Cadmium": {
+        "Melting Point": 320.9,
+        "Specific Heat (J/kgoC)": 234.0,
+        "Thermal Conductivity - k - W/": 92.1
+    },
+    "Calcium": {
+        "Melting Point": 839.0,
+        "Specific Heat (J/kgoC)": 532.0
+    },
+    "Calcium silicate": {
+        "Thermal Conductivity - k - W/": 0.05
+    },
+    "Californium": {},
+    "Calsium silicate": {
+        "Specific Heat (J/kgoC)": 710.0
+    },
+    "Camphor": {
+        "Boiling Points at Atmospheric Pressure": 204.0
+    },
+    "Carbolic acid ": {
+        "Boiling Points at Atmospheric Pressure": 182.2
+    },
+    "Carbon": {
+        "Boiling Point": 3642.0,
+        "Density": 2.25,
+        "Electric Resistivity": 52.7,
+        "Melting Point": 4492.0,
+        "Thermal Conductivity - k - W/": 1.7
+    },
+    "Carbon Bisulfide": {
+        "Boiling Points at Atmospheric Pressure": 47.8
+    },
+    "Carbon Dioxide CO2 ": {},
+    "Carbon Disulfide CS2": {
+        "Boiling Points at Atmospheric Pressure": 46.2
+    },
+    "Carbon Monoxide": {},
+    "Carbon Steel": {
+        "Thermal Conductivity - k - W/": 54.0
+    },
+    "Carbon Tetrachloride CCl4": {
+        "Boiling Points at Atmospheric Pressure": 76.7
+    },
+    "Carbon dioxide ": {
+        "Thermal Conductivity - k - W/": 0.0146
+    },
+    "Carbon monoxide": {
+        "Thermal Conductivity - k - W/": 0.0232
+    },
+    "Cast iron": {
+        "Radiation Constant": 5.09,
+        "Thermal Conductivity - k - W/": 58.0
+    },
+    "Cellulose": {
+        "Specific Heat (J/kgoC)": 1400.0,
+        "Thermal Conductivity - k - W/": 0.23
+    },
+    "Cellulose acetate": {
+        "Specific Heat (J/kgoC)": 1530.0,
+        "Thermal Conductivity - k - W/": 0.25
+    },
+    "Cellulose nitrate": {
+        "Specific Heat (J/kgoC)": 1500.0,
+        "Thermal Conductivity - k - W/": 0.16499999999999998
+    },
+    "Cement": {
+        "Thermal Conductivity - k - W/": 0.29
+    },
+    "Ceramic": {
+        "Density": 2.5,
+        "Melting Point": 3870.0
+    },
+    "Ceramic materials": {},
+    "Cerium": {
+        "Melting Point": 798.0
+    },
+    "Cesium": {
+        "Melting Point": 28.4
+    },
+    "Chalk": {
+        "Specific Heat (J/kgoC)": 750.0,
+        "Thermal Conductivity - k - W/": 0.09
+    },
+    "Charcoal": {
+        "Specific Heat (J/kgoC)": 840.0,
+        "Thermal Conductivity - k - W/": 0.084
+    },
+    "Chlorinated poly-ether": {
+        "Thermal Conductivity - k - W/": 0.13
+    },
+    "Chlorine": {},
+    "Chlorine ": {
+        "Thermal Conductivity - k - W/": 0.0081
+    },
+    "Chlorodifluoromethane refrigerant R-22": {},
+    "Chloroform": {
+        "Boiling Points at Atmospheric Pressure": 62.2
+    },
+    "Chrom oxide": {
+        "Specific Heat (J/kgoC)": 750.0
+    },
+    "Chrom-oxide": {
+        "Thermal Conductivity - k - W/": 0.42
+    },
+    "Chrome Nickel Steel ": {
+        "Thermal Conductivity - k - W/": 16.3
+    },
+    "Chromium": {
+        "Melting Point": 1857.0,
+        "Specific Heat (J/kgoC)": 452.0,
+        "Thermal Conductivity - k - W/": 94.0
+    },
+    "Clay": {
+        "Specific Heat (J/kgoC)": 1381.0,
+        "Thermal Conductivity - k - W/": 0.975
+    },
+    "Coal": {
+        "Thermal Conductivity - k - W/": 0.2
+    },
+    "Cobalt": {
+        "Melting Point": 1495.0,
+        "Specific Heat (J/kgoC)": 435.0,
+        "Thermal Conductivity - k - W/": 69.0
+    },
+    "Cod ": {
+        "Thermal Conductivity - k - W/": 0.54
+    },
+    "Coke": {
+        "Specific Heat (J/kgoC)": 840.0,
+        "Thermal Conductivity - k - W/": 0.184
+    },
+    "Concrete": {
+        "Density": 2.3499999999999996,
+        "Specific Heat (J/kgoC)": 880.0,
+        "Thermal Conductivity - k - W/": 0.2,
+        "Thermal Expansion Coefficient": 10.5
+    },
+    "Concrete ": {
+        "Tensile Strength": 40.0
+    },
+    "Constantan": {
+        "Specific Heat (J/kgoC)": 410.0,
+        "Thermal Conductivity - k - W/": 23.3
+    },
+    "Copper": {
+        "Boiling Point": 2562.0,
+        "Density": 8.94,
+        "Electric Resistivity": 17.0,
+        "Elongation": 30.0,
+        "Melting Point": 1085.0,
+        "Radiation Constant": 0.119,
+        "Specific Heat (J/kgoC)": 385.0,
+        "Tensile Strength": 305.0,
+        "Thermal Conductivity": 410.0,
+        "Thermal Conductivity - k - W/": 401.0,
+        "Thermal Expansion Coefficient": 17.1
     },
     "Copper Alloy": {
-        "density": 8.23,
-        "melting_point": 925.0,
-        "thermal_expansion": 17.0,
-        "ultimate_stress": 830.0,
-        "yield_stress": 760.0
+        "Density": 8.23,
+        "Electric Resistivity": 253.5,
+        "Elongation": 4.0,
+        "Melting Point": 925.0,
+        "Tensile Strength": 830.0,
+        "Thermal Expansion Coefficient": 17.0
     },
-    "Copper [Cu]": {
-        "density": 8.94,
-        "melting_point": 1085.0,
-        "thermal_expansion": 17.1,
-        "ultimate_stress": 305.0,
-        "yield_stress": 192.5
+    "Corian ": {
+        "Thermal Conductivity - k - W/": 1.06
     },
-    "Magnesium [Mg]": {
-        "density": 1.74,
-        "melting_point": 650.0,
-        "thermal_expansion": 25.2,
-        "ultimate_stress": 135.0,
-        "yield_stress": 45.0
+    "Cork": {
+        "Density": 0.175,
+        "Specific Heat (J/kgoC)": 2000.0,
+        "Thermal Conductivity - k - W/": 0.044
     },
-    "Nickel [Ni]": {
-        "density": 8.89,
-        "melting_point": 1455.0,
-        "thermal_expansion": 13.0,
-        "ultimate_stress": 535.0,
-        "yield_stress": 380.0
+    "Cork board": {
+        "Thermal Conductivity - k - W/": 0.043
     },
-    "Solder; Tin-Lead": {
-        "density": 9.754999999999999,
-        "melting_point": 215.0,
-        "thermal_expansion": 0.0,
-        "ultimate_stress": 33.0,
-        "yield_stress": 0.0
+    "Cotton": {
+        "Radiation Constant": 4.23,
+        "Thermal Conductivity - k - W/": 0.04
+    },
+    "Cotton Wool insulation": {
+        "Thermal Conductivity - k - W/": 0.029
+    },
+    "Cotton wool": {
+        "Thermal Conductivity - k - W/": 0.029
+    },
+    "Curium": {
+        "Melting Point": 1340.0
+    },
+    "Cyclohexane": {
+        "Boiling Points at Atmospheric Pressure": 80.7
+    },
+    "Cyclopentane": {
+        "Boiling Points at Atmospheric Pressure": 49.3
+    },
+    "Diamond": {
+        "Thermal Conductivity - k - W/": 1000.0
+    },
+    "Diamond ": {
+        "Specific Heat (J/kgoC)": 516.0
+    },
+    "Diatomaceous earth ": {
+        "Thermal Conductivity - k - W/": 0.06
+    },
+    "Diatomite": {
+        "Thermal Conductivity - k - W/": 0.12
+    },
+    "Dichlorodifluoromethane R-12 ": {
+        "Thermal Conductivity - k - W/": 0.007
+    },
+    "Dichlorodifluoromethane R12": {
+        "Specific Heat (J/kgoC)": 871.0
+    },
+    "Dichlorodifluoromethane refrigerant R-12": {},
+    "Dichloromethane - see methylene chloride": {},
+    "Diethyl ether": {
+        "Boiling Points at Atmospheric Pressure": 34.7
+    },
+    "Diisobutyl": {
+        "Boiling Points at Atmospheric Pressure": 109.0
+    },
+    "Dowtherm": {
+        "Boiling Points at Atmospheric Pressure": 258.0
+    },
+    "Duralium": {
+        "Specific Heat (J/kgoC)": 920.0,
+        "Thermal Conductivity - k - W/": 129.0
+    },
+    "Dysprosium": {
+        "Melting Point": 1409.0
+    },
+    "Earth": {
+        "Thermal Conductivity - k - W/": 1.5
+    },
+    "Ebonite": {
+        "Thermal Conductivity - k - W/": 0.17
+    },
+    "Einsteinium": {},
+    "Emery": {
+        "Specific Heat (J/kgoC)": 960.0,
+        "Thermal Conductivity - k - W/": 11.6
+    },
+    "Engine Oil": {
+        "Thermal Conductivity - k - W/": 0.15
+    },
+    "Epoxy": {
+        "Thermal Conductivity - k - W/": 0.35
+    },
+    "Epoxy cast resins": {
+        "Specific Heat (J/kgoC)": 1000.0
+    },
+    "Erbium": {
+        "Melting Point": 1522.0
+    },
+    "Ethane": {},
+    "Ethane ": {
+        "Thermal Conductivity - k - W/": 0.018
+    },
+    "Ethane C2H6": {},
+    "Ethanol": {
+        "Boiling Points at Atmospheric Pressure": 78.4
+    },
+    "Ether": {
+        "Boiling Points at Atmospheric Pressure": 34.6,
+        "Thermal Conductivity - k - W/": 0.14
+    },
+    "Ethyl acetate CH3COOC2H3": {
+        "Boiling Points at Atmospheric Pressure": 77.2
+    },
+    "Ethyl bromide C2H3Br": {
+        "Boiling Points at Atmospheric Pressure": 38.4
+    },
+    "Ethylbenzene": {
+        "Boiling Points at Atmospheric Pressure": 136.0
+    },
+    "Ethylene": {},
+    "Ethylene ": {
+        "Thermal Conductivity - k - W/": 0.017
+    },
+    "Ethylene Glycol": {
+        "Boiling Points at Atmospheric Pressure": 197.0
+    },
+    "Ethylene bromide": {
+        "Boiling Points at Atmospheric Pressure": 131.7
+    },
+    "Ethylene glycol": {
+        "Thermal Conductivity - k - W/": 0.25
+    },
+    "Europium": {
+        "Melting Point": 822.0
+    },
+    "Feathers": {
+        "Thermal Conductivity - k - W/": 0.034
+    },
+    "Felt insulation": {
+        "Thermal Conductivity - k - W/": 0.04
+    },
+    "Fermium": {},
+    "Fiber hardboard": {
+        "Thermal Conductivity - k - W/": 0.2
+    },
+    "Fiber insulating board": {
+        "Thermal Conductivity - k - W/": 0.048
+    },
+    "Fiberglass": {
+        "Thermal Conductivity - k - W/": 0.04
+    },
+    "Fire brick": {
+        "Specific Heat (J/kgoC)": 880.0
+    },
+    "Fire-clay brick 500oC": {
+        "Thermal Conductivity - k - W/": 1.4
+    },
+    "Fluorine": {},
+    "Fluorine ": {
+        "Thermal Conductivity - k - W/": 0.0254
+    },
+    "Fluorspar CaF2": {
+        "Specific Heat (J/kgoC)": 830.0
+    },
+    "Foam glass": {
+        "Thermal Conductivity - k - W/": 0.045
+    },
+    "Formaldehyde": {},
+    "Formic acid": {
+        "Boiling Points at Atmospheric Pressure": 101.0
+    },
+    "Francium": {
+        "Melting Point": 27.0
+    },
+    "Furfurol": {
+        "Boiling Points at Atmospheric Pressure": 161.7
+    },
+    "Gadolinium": {
+        "Melting Point": 1311.0
+    },
+    "Gallium": {
+        "Melting Point": 29.78
+    },
+    "Gasoline": {
+        "Thermal Conductivity - k - W/": 0.15
+    },
+    "Germanium": {
+        "Melting Point": 937.4
+    },
+    "Glass": {
+        "Density": 2.5999999999999996,
+        "Radiation Constant": 5.13,
+        "Specific Heat (J/kgoC)": 670.0,
+        "Tensile Strength": 515.0,
+        "Thermal Conductivity - k - W/": 1.05,
+        "Thermal Expansion Coefficient": 8.0
+    },
+    "Glass-wool": {
+        "Specific Heat (J/kgoC)": 840.0
+    },
+    "Glycerin": {
+        "Boiling Points at Atmospheric Pressure": 290.0
+    },
+    "Glycerine": {
+        "Boiling Points at Atmospheric Pressure": 290.0
+    },
+    "Glycerol": {
+        "Thermal Conductivity - k - W/": 0.28
+    },
+    "Glycol": {
+        "Boiling Points at Atmospheric Pressure": 197.0
+    },
+    "Gold": {
+        "Boiling Point": 2856.0,
+        "Density": 19.32,
+        "Electric Resistivity": 24.0,
+        "Melting Point": 1064.0,
+        "Specific Heat (J/kgoC)": 129.0,
+        "Thermal Conductivity": 317.0,
+        "Thermal Conductivity - k - W/": 310.0
+    },
+    "Granite": {
+        "Crushing Weight": 170.0,
+        "Shearing Strength": 15000.0,
+        "Specific Heat (J/kgoC)": 790.0,
+        "Strength": 2000.0,
+        "Thermal Conductivity - k - W/": 2.85
+    },
+    "Graphite": {
+        "Thermal Conductivity - k - W/": 168.0
+    },
+    "Graphite ": {
+        "Specific Heat (J/kgoC)": 717.0
+    },
+    "Gravel": {
+        "Thermal Conductivity - k - W/": 0.7
+    },
+    "Ground or soil": {
+        "Thermal Conductivity - k - W/": 1.4
+    },
+    "Gypsum": {
+        "Specific Heat (J/kgoC)": 1090.0
+    },
+    "Gypsum board": {
+        "Thermal Conductivity - k - W/": 0.17
+    },
+    "Hafnium": {
+        "Melting Point": 2227.0
+    },
+    "Hairfelt": {
+        "Thermal Conductivity - k - W/": 0.05
+    },
+    "Hardboard high density": {
+        "Thermal Conductivity - k - W/": 0.15
+    },
+    "Hardwoods ": {
+        "Thermal Conductivity - k - W/": 0.16
+    },
+    "Helium": {
+        "Specific Heat (J/kgoC)": 5193.0
+    },
+    "Helium ": {
+        "Thermal Conductivity - k - W/": 0.142
+    },
+    "Holmium": {
+        "Melting Point": 1470.0
+    },
+    "Honey ": {
+        "Thermal Conductivity - k - W/": 0.5
+    },
+    "Hydrochloric Acid": {},
+    "Hydrochloric acid ": {
+        "Thermal Conductivity - k - W/": 0.013
+    },
+    "Hydrofluoric Acid": {
+        "Boiling Points at Atmospheric Pressure": 18.9
+    },
+    "Hydrogen": {
+        "Specific Heat (J/kgoC)": 14304.0
+    },
+    "Hydrogen ": {
+        "Thermal Conductivity - k - W/": 0.168
+    },
+    "Hydrogen Chloride": {},
+    "Hydrogen Sulfide": {},
+    "Hydrogen sulfide ": {
+        "Thermal Conductivity - k - W/": 0.013
+    },
+    "Ice": {
+        "Specific Heat (J/kgoC)": 2090.0
+    },
+    "Ice ": {
+        "Specific Heat (J/kgoC)": 2093.0,
+        "Thermal Conductivity - k - W/": 2.18
+    },
+    "India rubber": {
+        "Specific Heat (J/kgoC)": 1250.0
+    },
+    "Indium": {
+        "Melting Point": 156.61
+    },
+    "Ingot iron": {
+        "Specific Heat (J/kgoC)": 490.0,
+        "Thermal Conductivity - k - W/": 52.5
+    },
+    "Insulation materials": {
+        "Thermal Conductivity - k - W/": 0.0975
+    },
+    "Iodine": {
+        "Boiling Points at Atmospheric Pressure": 184.3,
+        "Melting Point": 113.5,
+        "Specific Heat (J/kgoC)": 218.0,
+        "Thermal Conductivity - k - W/": 0.44
+    },
+    "Iridium": {
+        "Melting Point": 2410.0,
+        "Specific Heat (J/kgoC)": 134.0,
+        "Thermal Conductivity - k - W/": 147.0
+    },
+    "Iron": {
+        "Boiling Point": 2861.0,
+        "Density": 7.87,
+        "Electric Resistivity": 97.0,
+        "Melting Point": 1538.0,
+        "Specific Heat (J/kgoC)": 449.0,
+        "Thermal Conductivity": 80.2,
+        "Thermal Conductivity - k - W/": 80.0
+    },
+    "Iron ": {
+        "Density": 7.2,
+        "Elongation": 0.5,
+        "Tensile Strength": 274.5,
+        "Thermal Expansion Coefficient": 10.95
+    },
+    "Iron-oxide": {
+        "Thermal Conductivity - k - W/": 0.58
+    },
+    "Isobutane": {},
+    "Isobutene": {},
+    "Isooctane": {
+        "Boiling Points at Atmospheric Pressure": 99.2
+    },
+    "Isopentane": {
+        "Boiling Points at Atmospheric Pressure": 27.8
+    },
+    "Isoprene": {
+        "Boiling Points at Atmospheric Pressure": 34.1
+    },
+    "Isopropyl Alchol": {
+        "Boiling Points at Atmospheric Pressure": 80.3
+    },
+    "Isopropylbenzene": {
+        "Boiling Points at Atmospheric Pressure": 152.0
+    },
+    "Jet fuel": {
+        "Boiling Points at Atmospheric Pressure": 163.0
+    },
+    "Kapok insulation": {
+        "Thermal Conductivity - k - W/": 0.034
+    },
+    "Kerosene": {
+        "Thermal Conductivity - k - W/": 0.15
+    },
+    "Kerosene ": {
+        "Boiling Points at Atmospheric Pressure": 225.0
+    },
+    "Krypton": {},
+    "Krypton ": {
+        "Thermal Conductivity - k - W/": 0.0088
+    },
+    "Lamp black": {
+        "Radiation Constant": 5.16
+    },
+    "Lanthanum": {
+        "Melting Point": 920.0
+    },
+    "Lawrencium": {},
+    "Lead": {
+        "Boiling Point": 1749.0,
+        "Density": 11.3,
+        "Electric Resistivity": 210.0,
+        "Melting Point": 327.5,
+        "Specific Heat (J/kgoC)": 129.0,
+        "Thermal Conductivity": 35.3
+    },
+    "Lead Pb": {
+        "Thermal Conductivity - k - W/": 35.0
+    },
+    "Leather": {
+        "Specific Heat (J/kgoC)": 1500.0,
+        "Thermal Conductivity - k - W/": 0.14
+    },
+    "Limestone": {
+        "Crushing Weight": 170.0,
+        "Shearing Strength": 6000.0,
+        "Specific Heat (J/kgoC)": 909.0,
+        "Strength": 1000.0,
+        "Thermal Conductivity - k - W/": 1.295
+    },
+    "Linseed Oil": {
+        "Boiling Points at Atmospheric Pressure": 287.0
+    },
+    "Lithium": {
+        "Melting Point": 180.54,
+        "Specific Heat (J/kgoC)": 3582.0,
+        "Thermal Conductivity - k - W/": 301.0
+    },
+    "Lucite": {
+        "Specific Heat (J/kgoC)": 1460.0
+    },
+    "Lutetium": {
+        "Melting Point": 1656.0
+    },
+    "Magnesia ": {
+        "Specific Heat (J/kgoC)": 874.0
+    },
+    "Magnesia insulation ": {
+        "Thermal Conductivity - k - W/": 0.07
+    },
+    "Magnesite": {
+        "Thermal Conductivity - k - W/": 4.15
+    },
+    "Magnesium": {
+        "Boiling Point": 1090.0,
+        "Density": 1.74,
+        "Electric Resistivity": 45.0,
+        "Elongation": 10.0,
+        "Melting Point": 650.0,
+        "Specific Heat (J/kgoC)": 1050.0,
+        "Tensile Strength": 135.0,
+        "Thermal Conductivity": 156.0,
+        "Thermal Conductivity - k - W/": 156.0,
+        "Thermal Expansion Coefficient": 25.2
+    },
+    "Magnesium Alloy": {
+        "Boiling Point": 2061.0,
+        "Density": 1.77,
+        "Elongation": 11.0,
+        "Melting Point": 1246.0,
+        "Tensile Strength": 240.0,
+        "Thermal Expansion Coefficient": 27.450000000000003
+    },
+    "Magnesium alloy": {
+        "Specific Heat (J/kgoC)": 1010.0,
+        "Thermal Conductivity - k - W/": 107.5
+    },
+    "Manganese": {
+        "Melting Point": 1244.0,
+        "Specific Heat (J/kgoC)": 460.0
+    },
+    "Marble": {
+        "Crushing Weight": 170.0,
+        "Shearing Strength": 10000.0,
+        "Specific Heat (J/kgoC)": 880.0,
+        "Strength": 1400.0,
+        "Thermal Conductivity - k - W/": 2.51
+    },
+    "Mendelevium": {},
+    "Mercury": {
+        "Boiling Points at Atmospheric Pressure": 356.9,
+        "Specific Heat (J/kgoC)": 140.0,
+        "Thermal Conductivity - k - W/": 8.3
+    },
+    "Methane": {},
+    "Methane ": {
+        "Thermal Conductivity - k - W/": 0.03
+    },
+    "Methanol": {
+        "Thermal Conductivity - k - W/": 0.21
+    },
+    "Methanol ": {
+        "Boiling Points at Atmospheric Pressure": 66.0
+    },
+    "Methyl Acetate": {
+        "Boiling Points at Atmospheric Pressure": 57.2
+    },
+    "Methyl Bromide": {
+        "Boiling Points at Atmospheric Pressure": 3.3
+    },
+    "Methyl Ether ": {},
+    "Methyl iodide": {
+        "Boiling Points at Atmospheric Pressure": 42.6
+    },
+    "Methylcyclohexane": {
+        "Boiling Points at Atmospheric Pressure": 101.0
+    },
+    "Methylcyclopentane": {
+        "Boiling Points at Atmospheric Pressure": 71.8
+    },
+    "Methylene Chloride": {
+        "Boiling Points at Atmospheric Pressure": 39.8
+    },
+    "Metyl Chloride": {},
+    "Mica": {
+        "Specific Heat (J/kgoC)": 880.0,
+        "Thermal Conductivity - k - W/": 0.71
+    },
+    "Milk": {
+        "Thermal Conductivity - k - W/": 0.53
+    },
+    "Mineral wool insulation materials": {
+        "Thermal Conductivity - k - W/": 0.04
+    },
+    "Molybdenum": {
+        "Melting Point": 2617.0,
+        "Specific Heat (J/kgoC)": 272.0,
+        "Thermal Conductivity - k - W/": 138.0
+    },
+    "Monel": {
+        "Thermal Conductivity - k - W/": 26.0
+    },
+    "Monel ": {
+        "Density": 8.84,
+        "Elongation": 26.0,
+        "Melting Point": 1330.0,
+        "Tensile Strength": 825.0,
+        "Thermal Expansion Coefficient": 14.0
+    },
+    "Naphthalene ": {
+        "Boiling Points at Atmospheric Pressure": 217.9
+    },
+    "Neodymium": {
+        "Melting Point": 1010.0
+    },
+    "Neohexane": {
+        "Boiling Points at Atmospheric Pressure": 49.7
+    },
+    "Neon": {
+        "Specific Heat (J/kgoC)": 1030.0
+    },
+    "Neon ": {
+        "Thermal Conductivity - k - W/": 0.046
+    },
+    "Neopentane": {
+        "Boiling Points at Atmospheric Pressure": 9.5
+    },
+    "Neoprene": {
+        "Thermal Conductivity - k - W/": 0.05
+    },
+    "Neptunium": {
+        "Melting Point": 640.0
+    },
+    "Nickel": {
+        "Boiling Point": 2913.0,
+        "Density": 8.89,
+        "Electric Resistivity": 70.0,
+        "Elongation": 26.0,
+        "Melting Point": 1455.0,
+        "Specific Heat (J/kgoC)": 461.0,
+        "Tensile Strength": 535.0,
+        "Thermal Conductivity": 90.7,
+        "Thermal Conductivity - k - W/": 91.0,
+        "Thermal Expansion Coefficient": 13.0
+    },
+    "Niobium": {
+        "Melting Point": 2468.0
+    },
+    "Nitric Acid": {
+        "Boiling Points at Atmospheric Pressure": 120.0
+    },
+    "Nitric oxide ": {
+        "Thermal Conductivity - k - W/": 0.0238
+    },
+    "Nitrobenzene": {
+        "Boiling Points at Atmospheric Pressure": 210.9
+    },
+    "Nitrogen": {
+        "Specific Heat (J/kgoC)": 1040.0
+    },
+    "Nitrogen ": {
+        "Thermal Conductivity - k - W/": 0.024
+    },
+    "Nitrous oxide ": {
+        "Thermal Conductivity - k - W/": 0.0151
+    },
+    "Nobelium": {},
+    "Nylon": {
+        "Density": 1.1,
+        "Elongation": 50.0,
+        "Tensile Strength": 55.0,
+        "Thermal Expansion Coefficient": 87.5
+    },
+    "Nylon 6": {
+        "Thermal Conductivity - k - W/": 0.25
+    },
+    "Nylon-6": {
+        "Specific Heat (J/kgoC)": 1600.0
+    },
+    "Nylon-66": {
+        "Specific Heat (J/kgoC)": 1700.0
+    },
+    "Oil": {
+        "Thermal Conductivity - k - W/": 0.15
+    },
+    "Oil paint": {
+        "Radiation Constant": 4.3
+    },
+    "Olive oil": {
+        "Boiling Points at Atmospheric Pressure": 300.0,
+        "Specific Heat (J/kgoC)": 1790.0,
+        "Thermal Conductivity - k - W/": 0.17
+    },
+    "Osmium": {
+        "Melting Point": 3045.0,
+        "Specific Heat (J/kgoC)": 130.0
+    },
+    "Oxygen": {
+        "Specific Heat (J/kgoC)": 918.0
+    },
+    "Oxygen ": {
+        "Thermal Conductivity - k - W/": 0.024
+    },
+    "Palladium": {
+        "Melting Point": 1554.0,
+        "Specific Heat (J/kgoC)": 240.0,
+        "Thermal Conductivity - k - W/": 70.9
+    },
+    "Paper": {
+        "Radiation Constant": 4.43,
+        "Specific Heat (J/kgoC)": 1336.0,
+        "Thermal Conductivity - k - W/": 0.05
+    },
+    "Paraffin": {
+        "Specific Heat (J/kgoC)": 3260.0
+    },
+    "Paraffin Wax": {
+        "Thermal Conductivity - k - W/": 0.25
+    },
+    "Peat": {
+        "Specific Heat (J/kgoC)": 1900.0,
+        "Thermal Conductivity - k - W/": 0.08
+    },
+    "Perlite": {
+        "Specific Heat (J/kgoC)": 387.0,
+        "Thermal Conductivity - k - W/": 0.031
+    },
+    "Petrol": {
+        "Boiling Points at Atmospheric Pressure": 95.0
+    },
+    "Petroleum": {
+        "Boiling Points at Atmospheric Pressure": 210.0
+    },
+    "Phenol": {
+        "Boiling Points at Atmospheric Pressure": 182.0
+    },
+    "Phenol-formaldehyde molding compounds": {
+        "Specific Heat (J/kgoC)": 4250.0
+    },
+    "Phenol-formaldehyde moulding compounds": {
+        "Thermal Conductivity - k - W/": 0.19
+    },
+    "Phenolic cast resins": {
+        "Specific Heat (J/kgoC)": 1460.0,
+        "Thermal Conductivity - k - W/": 0.15
+    },
+    "Phosgene": {
+        "Boiling Points at Atmospheric Pressure": 8.3
+    },
+    "Phosphorbonze": {
+        "Specific Heat (J/kgoC)": 360.0
+    },
+    "Phosphorbronze": {
+        "Thermal Conductivity - k - W/": 110.0
+    },
+    "Phosphoric Acid": {
+        "Boiling Points at Atmospheric Pressure": 213.0
+    },
+    "Phosphorus": {
+        "Melting Point": 44.1,
+        "Specific Heat (J/kgoC)": 800.0
+    },
+    "Pinchbeck": {
+        "Specific Heat (J/kgoC)": 380.0,
+        "Thermal Conductivity - k - W/": 159.0
+    },
+    "Pit coal": {
+        "Specific Heat (J/kgoC)": 1020.0,
+        "Thermal Conductivity - k - W/": 0.24
+    },
+    "Pitch": {
+        "Thermal Conductivity - k - W/": 0.13
+    },
+    "Plaster": {
+        "Radiation Constant": 5.16,
+        "Thermal Conductivity - k - W/": 0.47
+    },
+    "Plaster light": {
+        "Thermal Conductivity - k - W/": 0.2
+    },
+    "Plasticine": {
+        "Thermal Conductivity - k - W/": 0.7250000000000001
+    },
+    "Plastics": {
+        "Thermal Conductivity - k - W/": 0.03
+    },
+    "Platinium": {
+        "Specific Heat (J/kgoC)": 133.0
+    },
+    "Platinum": {
+        "Boiling Point": 3825.0,
+        "Density": 21.4,
+        "Electric Resistivity": 110.0,
+        "Melting Point": 1768.0,
+        "Thermal Conductivity": 71.6,
+        "Thermal Conductivity - k - W/": 70.0
+    },
+    "Plutonium": {
+        "Melting Point": 641.0,
+        "Specific Heat (J/kgoC)": 140.0,
+        "Thermal Conductivity - k - W/": 6.7
+    },
+    "Plywood": {
+        "Thermal Conductivity - k - W/": 0.13
+    },
+    "Polonium": {
+        "Melting Point": 254.0
+    },
+    "Polycarbonate": {
+        "Thermal Conductivity - k - W/": 0.19
+    },
+    "Polycarbonates": {
+        "Specific Heat (J/kgoC)": 1210.0
+    },
+    "Polyester": {
+        "Thermal Conductivity - k - W/": 0.05
+    },
+    "Polyethylene high density": {
+        "Thermal Conductivity - k - W/": 0.46499999999999997
+    },
+    "Polyethylene low density": {
+        "Thermal Conductivity - k - W/": 0.33
+    },
+    "Polyethylene terephthalate": {
+        "Specific Heat (J/kgoC)": 1250.0
+    },
+    "Polyimide aromatics": {
+        "Specific Heat (J/kgoC)": 1120.0
+    },
+    "Polyisoprene hard rubber": {
+        "Specific Heat (J/kgoC)": 1380.0,
+        "Thermal Conductivity - k - W/": 0.16
+    },
+    "Polyisoprene natural rubber": {
+        "Specific Heat (J/kgoC)": 1880.0,
+        "Thermal Conductivity - k - W/": 0.13
+    },
+    "Polymethylmethacrylate": {
+        "Specific Heat (J/kgoC)": 1500.0,
+        "Thermal Conductivity - k - W/": 0.21000000000000002
+    },
+    "Polypropylene": {
+        "Specific Heat (J/kgoC)": 1920.0,
+        "Thermal Conductivity - k - W/": 0.16
+    },
+    "Polystyrene": {
+        "Specific Heat (J/kgoC)": 1400.0,
+        "Thermal Conductivity - k - W/": 0.03
+    },
+    "Polystyrol": {
+        "Thermal Conductivity - k - W/": 0.043
+    },
+    "Polytetrafluoroethylene ": {
+        "Specific Heat (J/kgoC)": 1172.0,
+        "Thermal Conductivity - k - W/": 0.25
+    },
+    "Polytetrafluoroethylene moulding compound": {
+        "Specific Heat (J/kgoC)": 1000.0
+    },
+    "Polyurethane cast liquid": {
+        "Specific Heat (J/kgoC)": 1800.0
+    },
+    "Polyurethane elastomer": {
+        "Specific Heat (J/kgoC)": 1800.0
+    },
+    "Polyurethane foam": {
+        "Thermal Conductivity - k - W/": 0.03
+    },
+    "Polyvinylchloride": {
+        "Thermal Conductivity - k - W/": 0.19
+    },
+    "Polyvinylchloride PVC": {
+        "Specific Heat (J/kgoC)": 1005.0
+    },
+    "Porcelain": {
+        "Specific Heat (J/kgoC)": 1085.0,
+        "Thermal Conductivity - k - W/": 1.5
+    },
+    "Potassium": {
+        "Melting Point": 63.25,
+        "Specific Heat (J/kgoC)": 1000.0,
+        "Thermal Conductivity - k - W/": 1.0
+    },
+    "Potassium chloride": {
+        "Specific Heat (J/kgoC)": 680.0
+    },
+    "Potato": {
+        "Thermal Conductivity - k - W/": 0.55
+    },
+    "Praceodymium": {
+        "Melting Point": 931.0
+    },
+    "Promethium": {
+        "Melting Point": 1080.0
+    },
+    "Propane": {},
+    "Propane ": {
+        "Thermal Conductivity - k - W/": 0.015
+    },
+    "Propene": {},
+    "Propionic acid": {
+        "Boiling Points at Atmospheric Pressure": 141.0
+    },
+    "Propylene": {},
+    "Propylene glycol": {
+        "Boiling Points at Atmospheric Pressure": 187.0
+    },
+    "Protactinium": {
+        "Melting Point": 1600.0
+    },
+    "Pyrex glass": {
+        "Thermal Conductivity - k - W/": 1.005
+    },
+    "Pyroceram": {
+        "Specific Heat (J/kgoC)": 710.0
+    },
+    "Quartz": {
+        "Specific Heat (J/kgoC)": 730.0
+    },
+    "Quartz glass": {
+        "Specific Heat (J/kgoC)": 700.0
+    },
+    "Quartz mineral": {
+        "Thermal Conductivity - k - W/": 3.0
+    },
+    "Radium": {
+        "Melting Point": 700.0
+    },
+    "Radon": {},
+    "Radon ": {
+        "Thermal Conductivity - k - W/": 0.0033
+    },
+    "Red metal": {
+        "Specific Heat (J/kgoC)": 381.0,
+        "Thermal Conductivity - k - W/": 128.0
+    },
+    "Rhenium": {
+        "Melting Point": 3180.0,
+        "Specific Heat (J/kgoC)": 140.0,
+        "Thermal Conductivity - k - W/": 71.0
+    },
+    "Rhodium": {
+        "Melting Point": 1965.0,
+        "Specific Heat (J/kgoC)": 240.0,
+        "Thermal Conductivity - k - W/": 88.0
+    },
+    "Rock": {
+        "Thermal Conductivity - k - W/": 4.5
+    },
+    "Rock Wool insulation": {
+        "Thermal Conductivity - k - W/": 0.045
+    },
+    "Rosin": {
+        "Specific Heat (J/kgoC)": 1300.0,
+        "Thermal Conductivity - k - W/": 0.32
+    },
+    "Rubber": {
+        "Density": 1.13,
+        "Elongation": 450.0,
+        "Tensile Strength": 13.5,
+        "Thermal Conductivity - k - W/": 0.045,
+        "Thermal Expansion Coefficient": 165.0
+    },
+    "Rubidium": {
+        "Melting Point": 38.89,
+        "Specific Heat (J/kgoC)": 330.0,
+        "Thermal Conductivity - k - W/": 58.0
+    },
+    "Ruthenium": {
+        "Melting Point": 2310.0
+    },
+    "Salmon ": {
+        "Thermal Conductivity - k - W/": 0.5
+    },
+    "Salt": {
+        "Specific Heat (J/kgoC)": 880.0
+    },
+    "Samarium": {
+        "Melting Point": 1072.0
+    },
+    "Sand": {
+        "Radiation Constant": 4.2,
+        "Specific Heat (J/kgoC)": 830.0,
+        "Thermal Conductivity - k - W/": 0.2
+    },
+    "Sandstone": {
+        "Crushing Weight": 150.0,
+        "Shearing Strength": 8000.0,
+        "Specific Heat (J/kgoC)": 710.0,
+        "Strength": 1500.0,
+        "Thermal Conductivity - k - W/": 1.7
+    },
+    "Saturated brine": {
+        "Boiling Points at Atmospheric Pressure": 108.0
+    },
+    "Sawdust": {
+        "Thermal Conductivity - k - W/": 0.08
+    },
+    "Scandium": {
+        "Melting Point": 1539.0,
+        "Specific Heat (J/kgoC)": 568.0
+    },
+    "Selenium": {
+        "Melting Point": 217.0,
+        "Specific Heat (J/kgoC)": 330.0,
+        "Thermal Conductivity - k - W/": 0.2
+    },
+    "Shavings": {
+        "Radiation Constant": 4.1
+    },
+    "Sheep wool": {
+        "Thermal Conductivity - k - W/": 0.039
+    },
+    "Silica aerogel": {
+        "Thermal Conductivity - k - W/": 0.02
+    },
+    "Silicon": {
+        "Density": 2.33,
+        "Electric Resistivity": 100.0,
+        "Melting Point": 1382.0,
+        "Specific Heat (J/kgoC)": 705.0,
+        "Thermal Conductivity": 148.0
+    },
+    "Silicon carbide": {
+        "Thermal Conductivity - k - W/": 15.2
+    },
+    "Silicon cast resin": {
+        "Thermal Conductivity - k - W/": 0.235
+    },
+    "Silicon oil": {
+        "Thermal Conductivity - k - W/": 0.1
+    },
+    "Silk": {
+        "Radiation Constant": 4.3
+    },
+    "Silver": {
+        "Boiling Point": 2162.0,
+        "Density": 10.49,
+        "Electric Resistivity": 16.0,
+        "Melting Point": 961.8,
+        "Radiation Constant": 1.19,
+        "Specific Heat (J/kgoC)": 235.0,
+        "Thermal Conductivity": 429.0,
+        "Thermal Conductivity - k - W/": 429.0
+    },
+    "Slag wool": {
+        "Thermal Conductivity - k - W/": 0.042
+    },
+    "Slate": {
+        "Crushing Weight": 175.0,
+        "Shearing Strength": 15000.0,
+        "Specific Heat (J/kgoC)": 760.0,
+        "Thermal Conductivity - k - W/": 2.01
+    },
+    "Snow": {
+        "Specific Heat (J/kgoC)": 2090.0
+    },
+    "Snow ": {
+        "Thermal Conductivity - k - W/": 0.15
+    },
+    "Sodium": {
+        "Melting Point": 97.81,
+        "Specific Heat (J/kgoC)": 1260.0,
+        "Thermal Conductivity - k - W/": 135.0
+    },
+    "Softwoods ": {
+        "Thermal Conductivity - k - W/": 0.12
+    },
+    "Soil": {
+        "Specific Heat (J/kgoC)": 800.0,
+        "Thermal Conductivity - k - W/": 1.1
+    },
+    "Solder": {
+        "Density": 9.754999999999999,
+        "Electric Resistivity": 170.0,
+        "Elongation": 42.5,
+        "Melting Point": 215.0,
+        "Tensile Strength": 33.0,
+        "Thermal Conductivity": 39.9
+    },
+    "Soot": {
+        "Specific Heat (J/kgoC)": 840.0,
+        "Thermal Conductivity - k - W/": 0.07
+    },
+    "Stainless Steel": {
+        "Thermal Conductivity - k - W/": 16.0
+    },
+    "Steam": {
+        "Thermal Conductivity - k - W/": 0.0184
+    },
+    "Steatite": {
+        "Specific Heat (J/kgoC)": 830.0,
+        "Thermal Conductivity - k - W/": 2.0
     },
     "Steel": {
-        "density": 7.85,
-        "melting_point": 1425.0,
-        "thermal_expansion": 14.0,
-        "ultimate_stress": 1120.0,
-        "yield_stress": 940.0
+        "Density": 7.85,
+        "Electric Resistivity": 910.0,
+        "Elongation": 21.5,
+        "Melting Point": 1425.0,
+        "Specific Heat (J/kgoC)": 490.0,
+        "Tensile Strength": 1120.0,
+        "Thermal Conductivity - k - W/": 43.0,
+        "Thermal Expansion Coefficient": 14.0
     },
-    "Titanium [Ti]": {
-        "density": 4.54,
-        "melting_point": 1668.0,
-        "thermal_expansion": 0.0,
-        "ultimate_stress": 500.0,
-        "yield_stress": 0.0
+    "Stone": {
+        "Density": 2.6,
+        "Tensile Strength": 175.0
     },
-    "Tungsten [W]": {
-        "density": 19.3,
-        "melting_point": 3422.0,
-        "thermal_expansion": 4.3,
-        "ultimate_stress": 2700.0,
-        "yield_stress": 0.0
+    "Straw slab insulation": {
+        "Thermal Conductivity - k - W/": 0.09
+    },
+    "Strontium": {
+        "Melting Point": 769.0
+    },
+    "Styrene": {
+        "Boiling Points at Atmospheric Pressure": 145.0
+    },
+    "Styrofoam": {
+        "Thermal Conductivity - k - W/": 0.033
+    },
+    "Sugars": {
+        "Thermal Conductivity - k - W/": 0.1535
+    },
+    "Sulfur": {
+        "Melting Point": 112.8,
+        "Specific Heat (J/kgoC)": 700.0,
+        "Thermal Conductivity - k - W/": 0.2
+    },
+    "Sulfur Dioxide": {},
+    "Sulfur dioxide ": {
+        "Thermal Conductivity - k - W/": 0.0086
+    },
+    "Sulfuric Acid": {
+        "Boiling Points at Atmospheric Pressure": 330.0
+    },
+    "Sulphur": {
+        "Boiling Points at Atmospheric Pressure": 444.6
+    },
+    "Tantalium": {
+        "Specific Heat (J/kgoC)": 138.0
+    },
+    "Tantalum": {
+        "Melting Point": 2996.0,
+        "Thermal Conductivity - k - W/": 54.0
+    },
+    "Tar": {
+        "Boiling Points at Atmospheric Pressure": 300.0,
+        "Thermal Conductivity - k - W/": 0.19
+    },
+    "Technetium": {
+        "Melting Point": 2172.0
+    },
+    "Tellurium": {
+        "Melting Point": 449.5,
+        "Specific Heat (J/kgoC)": 201.0,
+        "Thermal Conductivity - k - W/": 4.9
+    },
+    "Terbium": {
+        "Melting Point": 1360.0
+    },
+    "Thallium": {
+        "Melting Point": 303.5
+    },
+    "Thorium": {
+        "Melting Point": 1750.0,
+        "Specific Heat (J/kgoC)": 140.0,
+        "Thermal Conductivity - k - W/": 38.0
+    },
+    "Thulium": {
+        "Melting Point": 1545.0
+    },
+    "Timber": {
+        "Specific Heat (J/kgoC)": 1400.0,
+        "Thermal Conductivity - k - W/": 0.17
+    },
+    "Tin": {
+        "Boiling Point": 2602.0,
+        "Density": 7.3,
+        "Electric Resistivity": 110.0,
+        "Melting Point": 231.9,
+        "Radiation Constant": 0.26,
+        "Specific Heat (J/kgoC)": 228.0,
+        "Thermal Conductivity": 66.6
+    },
+    "Tin Sn": {
+        "Thermal Conductivity - k - W/": 67.0
+    },
+    "Titanium": {
+        "Boiling Point": 3287.0,
+        "Density": 4.54,
+        "Electric Resistivity": 430.0,
+        "Elongation": 25.0,
+        "Melting Point": 1668.0,
+        "Specific Heat (J/kgoC)": 523.0,
+        "Tensile Strength": 500.0,
+        "Thermal Conductivity": 21.9,
+        "Thermal Conductivity - k - W/": 22.0
+    },
+    "Titanium Alloy": {
+        "Density": 4.51,
+        "Elongation": 10.0,
+        "Tensile Strength": 935.0,
+        "Thermal Expansion Coefficient": 9.0
+    },
+    "Toluene": {
+        "Boiling Points at Atmospheric Pressure": 110.6
+    },
+    "Trichlorofluoromethane refrigerant R-11": {
+        "Boiling Points at Atmospheric Pressure": 23.8
+    },
+    "Triptane": {
+        "Boiling Points at Atmospheric Pressure": 80.9
+    },
+    "Tungsten": {
+        "Boiling Point": 5555.0,
+        "Density": 19.3,
+        "Electric Resistivity": 56.0,
+        "Elongation": 2.0,
+        "Melting Point": 3422.0,
+        "Specific Heat (J/kgoC)": 132.0,
+        "Tensile Strength": 2700.0,
+        "Thermal Conductivity": 174.0,
+        "Thermal Conductivity - k - W/": 174.0,
+        "Thermal Expansion Coefficient": 4.3
+    },
+    "Tungsten carbide": {
+        "Specific Heat (J/kgoC)": 171.0
+    },
+    "Turpentine": {
+        "Boiling Points at Atmospheric Pressure": 160.0
+    },
+    "Uranium": {
+        "Melting Point": 1132.0,
+        "Specific Heat (J/kgoC)": 116.0,
+        "Thermal Conductivity - k - W/": 27.6
+    },
+    "Urethane foam": {
+        "Thermal Conductivity - k - W/": 0.021
+    },
+    "Vacuum": {},
+    "Vanadium": {
+        "Melting Point": 1890.0,
+        "Specific Heat (J/kgoC)": 500.0
+    },
+    "Vermiculite granules": {
+        "Thermal Conductivity - k - W/": 0.065
+    },
+    "Vinyl ester": {
+        "Thermal Conductivity - k - W/": 0.25
+    },
+    "Water": {
+        "Boiling Points at Atmospheric Pressure": 100.0,
+        "Radiation Constant": 3.7,
+        "Specific Heat (J/kgoC)": 4182.0,
+        "Thermal Conductivity - k - W/": 0.606
+    },
+    "Wax": {
+        "Thermal Conductivity - k - W/": 0.084
+    },
+    "Wet mud": {
+        "Specific Heat (J/kgoC)": 2512.0
+    },
+    "Wheat flour": {
+        "Thermal Conductivity - k - W/": 0.45
+    },
+    "White metal": {
+        "Thermal Conductivity - k - W/": 52.5
+    },
+    "Wood": {
+        "Density": 0.6000000000000001,
+        "Radiation Constant": 4.17,
+        "Specific Heat (J/kgoC)": 1850.0,
+        "Tensile Strength": 75.0,
+        "Thermal Conductivity - k - W/": 0.17
+    },
+    "Wood wool": {
+        "Thermal Conductivity - k - W/": 0.125
+    },
+    "Wool": {
+        "Radiation Constant": 4.3,
+        "Thermal Conductivity - k - W/": 0.07
+    },
+    "Wrought iron": {
+        "Radiation Constant": 5.16
+    },
+    "Xenon": {},
+    "Xenon ": {
+        "Thermal Conductivity - k - W/": 0.0051
+    },
+    "Ytterbium": {
+        "Melting Point": 824.0
+    },
+    "Yttrium": {
+        "Melting Point": 1523.0
+    },
+    "Zinc": {
+        "Boiling Point": 907.0,
+        "Density": 7.14,
+        "Electric Resistivity": 59.0,
+        "Melting Point": 419.5,
+        "Radiation Constant": 0.152,
+        "Specific Heat (J/kgoC)": 388.0,
+        "Thermal Conductivity": 116.0,
+        "Thermal Expansion Coefficient": 30.2
+    },
+    "Zinc Zn": {
+        "Thermal Conductivity - k - W/": 116.0
+    },
+    "Zirconium": {
+        "Melting Point": 1852.0
+    },
+    "n - Butane": {},
+    "n - Decane": {
+        "Boiling Points at Atmospheric Pressure": 174.0
+    },
+    "n - Heptane": {
+        "Boiling Points at Atmospheric Pressure": 98.4
+    },
+    "n - Hexane": {
+        "Boiling Points at Atmospheric Pressure": 68.7
+    },
+    "n - Nonane": {
+        "Boiling Points at Atmospheric Pressure": 150.7
+    },
+    "n - Octane": {
+        "Boiling Points at Atmospheric Pressure": 125.6
+    },
+    "n - Pentane": {
+        "Boiling Points at Atmospheric Pressure": 36.0
+    },
+    "o - Xylene": {
+        "Boiling Points at Atmospheric Pressure": 142.7
+    },
+    "silicon carbide": {
+        "Specific Heat (J/kgoC)": 670.0
     }
 }

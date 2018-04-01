@@ -1,5 +1,7 @@
 import json
 
+OCCUPIED_DENSITY = 0.01
+
 with open("materials.json", "r") as f:
     MAT_VALS = json.loads(f.readlines)
 
@@ -10,13 +12,11 @@ PROP_NAMES = [
     "density",
     "melting_point",
     "thermal_conductivity",
-    "thermal_dissipation",
-    "electrical_conductivity", 
-    "thermal_dissipation",
+    "thermal_radiation",
+    "electrical_resistance", 
     "magnetic_attraction",
     "magnetism",
     "tensile_strength",
-    "ultimate_strength",
     "ph",
     "solubility_ph",
     "solubility_C",
@@ -43,3 +43,6 @@ class Tile:
 
     def __mul__(self, value):
         return self.density * value.density
+
+    def isOccupied(self):
+        return self.density > OCCUPIED_DENSITY
