@@ -31,9 +31,6 @@ while running do
 
 		elseif cmd == 'update' then
 			for k, v in pairs(world) do
-        print(v.x)
-        print(v.y)
-        print(k)
         local dg = string.format("%s %s %f %f", k, 'at', v.x, v.y)
 				udp:sendto(dg, msg_or_ip,  port_or_nil)
 			end

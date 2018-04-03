@@ -1,7 +1,7 @@
 Grid = {}
 Grid.__index = Grid
 
-function Grid:new(o)
+function Grid.new(o)
   o = o or {width = 5, height = 5, center = {x = 0, y = 0}}
   setmetatable(o, self)
   self.__index = self

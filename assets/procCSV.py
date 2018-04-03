@@ -1,5 +1,7 @@
-import csv, json
+import csv, json, re
 from icecream import ic
+
+min_props = 5
 
 def parseNumbers(string):
     arr = string.split(" ")
@@ -30,6 +32,15 @@ def parseHeader(arr):
                 return headers
         except:
             return headers
+def stripName(name, maxDangling):
+    name = " " + name + " "
+    for i in range(maxDangling):
+        for j in range(4):
+            search = r' '+'[^ ]'*(i+1)+' '
+            name = re.sub(search, " ", name)
+    name = re.sub(r'\(.*\)', '', name)
+    name = name.strip()
+    return name
 
 with open("materials.csv", "r") as f:
     reader = csv.reader(f, quotechar='"')
@@ -40,23 +51,30 @@ with open("materials.csv", "r") as f:
         if i == 0:
             # Parse header
             header_slices = parseHeader(row)
-            header = [j.strip() for j in row]
+            header = [stripName(j, 2) for j in row]
         else:
             # Iterate over slices
             for sl in header_slices:
-                if not materials.get(row[sl.start]):
-                    materials[row[sl.start]] = {}
+                mat_name = row[sl.start].strip()
+                if not materials.get(mat_name):
+                    materials[mat_name] = {}
                 # Iterate over items in slice
-                if row[sl.start] == "Aluminum":
-                    ic(row)
-                    ic(sl)
                 for j in range(sl.start+1, sl.stop):
                     v = parseNumbers(row[j])
-                    if not materials[row[sl.start]].get(header[j]) and v:
-                        materials[row[sl.start]][header[j]] = v
+                    if not materials[mat_name].get(header[j]) and v:
+                        materials[mat_name][header[j]] = v
 
     materials.pop('')
+    remove_list = []
+    for key in materials:
+        if len(materials[key]) < min_props:
+            remove_list.append(key)
+
+    for key in remove_list:
+        del materials[key]
 
     #ic(converted)
     with open("materials.json", "w+") as f:
-        f.write(json.dumps(materials, indent=4, sort_keys=True))
+        mat_json = json.dumps(materials, indent=4, sort_keys=True)
+        mat_json = re.sub(r'},', "},\n", mat_json)
+        f.write(mat_json)

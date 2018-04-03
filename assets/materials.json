@@ -1,0 +1,297 @@
+{
+    "Aluminum": {
+        "Boiling Point": 2519.0,
+        "Density": 2.71,
+        "Electric Resistivity": 27.0,
+        "Elongation": 60.0,
+        "Melting Point": 660.3,
+        "Radiation Constant": 0.119,
+        "Specific Heat": 897.0,
+        "Tensile Strength": 70.0,
+        "Thermal Conductivity": 237.0,
+        "Thermal Expansion Coefficient": 23.0
+    },
+
+    "Brass": {
+        "Density": 8.575,
+        "Electric Resistivity": 40.5,
+        "Elongation": 32.0,
+        "Melting Point": 930.0,
+        "Radiation Constant": 0.152,
+        "Specific Heat": 375.0,
+        "Tensile Strength": 410.0,
+        "Thermal Conductivity": 109.0,
+        "Thermal Expansion Coefficient": 20.15
+    },
+
+    "Brick": {
+        "Density": 2.1,
+        "Radiation Constant": 5.16,
+        "Specific Heat": 840.0,
+        "Tensile Strength": 38.5,
+        "Thermal Conductivity": 0.47,
+        "Thermal Expansion Coefficient": 6.0
+    },
+
+    "Bronze": {
+        "Density": 8.3,
+        "Elongation": 32.5,
+        "Melting Point": 1050.0,
+        "Specific Heat": 370.0,
+        "Tensile Strength": 515.0,
+        "Thermal Conductivity": 110.0,
+        "Thermal Expansion Coefficient": 19.5
+    },
+
+    "Carbon": {
+        "Boiling Point": 3642.0,
+        "Density": 2.25,
+        "Electric Resistivity": 52.7,
+        "Melting Point": 4492.0,
+        "Thermal Conductivity": 1.7
+    },
+
+    "Concrete": {
+        "Density": 2.3499999999999996,
+        "Specific Heat": 880.0,
+        "Tensile Strength": 40.0,
+        "Thermal Conductivity": 0.2,
+        "Thermal Expansion Coefficient": 10.5
+    },
+
+    "Copper": {
+        "Boiling Point": 2562.0,
+        "Density": 8.94,
+        "Electric Resistivity": 17.0,
+        "Elongation": 30.0,
+        "Melting Point": 1085.0,
+        "Radiation Constant": 0.119,
+        "Specific Heat": 385.0,
+        "Tensile Strength": 305.0,
+        "Thermal Conductivity": 410.0,
+        "Thermal Expansion Coefficient": 17.1
+    },
+
+    "Glass": {
+        "Density": 2.5999999999999996,
+        "Radiation Constant": 5.13,
+        "Specific Heat": 670.0,
+        "Tensile Strength": 515.0,
+        "Thermal Conductivity": 1.05,
+        "Thermal Expansion Coefficient": 8.0
+    },
+
+    "Gold": {
+        "Boiling Point": 2856.0,
+        "Density": 19.32,
+        "Electric Resistivity": 24.0,
+        "Melting Point": 1064.0,
+        "Specific Heat": 129.0,
+        "Thermal Conductivity": 317.0
+    },
+
+    "Granite": {
+        "Crushing Weight": 170.0,
+        "Shearing Strength": 15000.0,
+        "Specific Heat": 790.0,
+        "Strength": 2000.0,
+        "Thermal Conductivity": 2.85
+    },
+
+    "Iron": {
+        "Boiling Point": 2861.0,
+        "Density": 7.87,
+        "Electric Resistivity": 97.0,
+        "Elongation": 0.5,
+        "Melting Point": 1538.0,
+        "Specific Heat": 449.0,
+        "Tensile Strength": 274.5,
+        "Thermal Conductivity": 80.2,
+        "Thermal Expansion Coefficient": 10.95
+    },
+
+    "Lead": {
+        "Boiling Point": 1749.0,
+        "Density": 11.3,
+        "Electric Resistivity": 210.0,
+        "Melting Point": 327.5,
+        "Specific Heat": 129.0,
+        "Thermal Conductivity": 35.3
+    },
+
+    "Limestone": {
+        "Crushing Weight": 170.0,
+        "Shearing Strength": 6000.0,
+        "Specific Heat": 909.0,
+        "Strength": 1000.0,
+        "Thermal Conductivity": 1.295
+    },
+
+    "Magnesium": {
+        "Boiling Point": 1090.0,
+        "Density": 1.74,
+        "Electric Resistivity": 45.0,
+        "Elongation": 10.0,
+        "Melting Point": 650.0,
+        "Specific Heat": 1050.0,
+        "Tensile Strength": 135.0,
+        "Thermal Conductivity": 156.0,
+        "Thermal Expansion Coefficient": 25.2
+    },
+
+    "Magnesium Alloy": {
+        "Boiling Point": 2061.0,
+        "Density": 1.77,
+        "Elongation": 11.0,
+        "Melting Point": 1246.0,
+        "Tensile Strength": 240.0,
+        "Thermal Expansion Coefficient": 27.450000000000003
+    },
+
+    "Marble": {
+        "Crushing Weight": 170.0,
+        "Shearing Strength": 10000.0,
+        "Specific Heat": 880.0,
+        "Strength": 1400.0,
+        "Thermal Conductivity": 2.51
+    },
+
+    "Monel": {
+        "Density": 8.84,
+        "Elongation": 26.0,
+        "Melting Point": 1330.0,
+        "Tensile Strength": 825.0,
+        "Thermal Conductivity": 26.0,
+        "Thermal Expansion Coefficient": 14.0
+    },
+
+    "Nickel": {
+        "Boiling Point": 2913.0,
+        "Density": 8.89,
+        "Electric Resistivity": 70.0,
+        "Elongation": 26.0,
+        "Melting Point": 1455.0,
+        "Specific Heat": 461.0,
+        "Tensile Strength": 535.0,
+        "Thermal Conductivity": 90.7,
+        "Thermal Expansion Coefficient": 13.0
+    },
+
+    "Platinum": {
+        "Boiling Point": 3825.0,
+        "Density": 21.4,
+        "Electric Resistivity": 110.0,
+        "Melting Point": 1768.0,
+        "Thermal Conductivity": 71.6
+    },
+
+    "Rubber": {
+        "Density": 1.13,
+        "Elongation": 450.0,
+        "Tensile Strength": 13.5,
+        "Thermal Conductivity": 0.045,
+        "Thermal Expansion Coefficient": 165.0
+    },
+
+    "Sandstone": {
+        "Crushing Weight": 150.0,
+        "Shearing Strength": 8000.0,
+        "Specific Heat": 710.0,
+        "Strength": 1500.0,
+        "Thermal Conductivity": 1.7
+    },
+
+    "Silicon": {
+        "Density": 2.33,
+        "Electric Resistivity": 100.0,
+        "Melting Point": 1382.0,
+        "Specific Heat": 705.0,
+        "Thermal Conductivity": 148.0
+    },
+
+    "Silver": {
+        "Boiling Point": 2162.0,
+        "Density": 10.49,
+        "Electric Resistivity": 16.0,
+        "Melting Point": 961.8,
+        "Radiation Constant": 1.19,
+        "Specific Heat": 235.0,
+        "Thermal Conductivity": 429.0
+    },
+
+    "Solder": {
+        "Density": 9.754999999999999,
+        "Electric Resistivity": 170.0,
+        "Elongation": 42.5,
+        "Melting Point": 215.0,
+        "Radiation Constant": 1.19,
+        "Tensile Strength": 33.0,
+        "Thermal Conductivity": 39.9
+    },
+
+    "Steel": {
+        "Density": 7.85,
+        "Electric Resistivity": 910.0,
+        "Elongation": 21.5,
+        "Melting Point": 1425.0,
+        "Radiation Constant": 0.119,
+        "Specific Heat": 490.0,
+        "Tensile Strength": 1120.0,
+        "Thermal Conductivity": 43.0,
+        "Thermal Expansion Coefficient": 14.0
+    },
+
+    "Tin": {
+        "Boiling Point": 2602.0,
+        "Density": 7.3,
+        "Electric Resistivity": 110.0,
+        "Melting Point": 231.9,
+        "Radiation Constant": 0.26,
+        "Specific Heat": 228.0,
+        "Thermal Conductivity": 66.6
+    },
+
+    "Titanium": {
+        "Boiling Point": 3287.0,
+        "Density": 4.54,
+        "Electric Resistivity": 430.0,
+        "Elongation": 25.0,
+        "Melting Point": 1668.0,
+        "Radiation Constant": 0.119,
+        "Specific Heat": 523.0,
+        "Tensile Strength": 500.0,
+        "Thermal Conductivity": 21.9
+    },
+
+    "Tungsten": {
+        "Boiling Point": 5555.0,
+        "Density": 19.3,
+        "Electric Resistivity": 56.0,
+        "Elongation": 2.0,
+        "Melting Point": 3422.0,
+        "Radiation Constant": 0.119,
+        "Specific Heat": 132.0,
+        "Tensile Strength": 2700.0,
+        "Thermal Conductivity": 174.0,
+        "Thermal Expansion Coefficient": 4.3
+    },
+
+    "Wood": {
+        "Density": 0.6000000000000001,
+        "Radiation Constant": 4.17,
+        "Specific Heat": 1850.0,
+        "Tensile Strength": 75.0,
+        "Thermal Conductivity": 0.17
+    },
+
+    "Zinc": {
+        "Boiling Point": 907.0,
+        "Density": 7.14,
+        "Electric Resistivity": 59.0,
+        "Melting Point": 419.5,
+        "Radiation Constant": 0.152,
+        "Specific Heat": 388.0,
+        "Thermal Conductivity": 116.0,
+        "Thermal Expansion Coefficient": 30.2
+    }
+}
