@@ -1,53 +1,67 @@
-json = require "json"
+json = require "lib/json"
 
 OCCUPIED_DENSITY = 0.01
 
+function readAll(file)
+  local f = assert(io.open(file, "rb"))
+  local content = f:read("*all")
+  f:close()
+  return content
+end
+
 -- Values taken from: https://www.engineeringtoolbox.com
-local mat_vals_json = io.open("assets/materials.json", "r")
+local mat_vals_json = readAll("assets/materials.json", "r")
 if not mat_vals_json then
   error("Failed to load assets/materials.json")
 end
 MAT_VALS = json.decode(mat_vals_json)
 
-function json_retrieve(name, val_key):
-    return MAT_VALS[name].get(val_key)
+function json_retrieve(name, val_key)
+  return MAT_VALS[name][val_key]
+end
 
 PROP_NAMES = {
-  "density",
+  "texture",
+  "density", -- g/cm
   "melting_point",
   "thermal_conductivity",
-  "thermal_radiation",
-  "electrical_resistance",
+  "radiation_constant",
+  "electrical_resistivity",
   "magnetic_attraction",
   "magnetism",
   "tensile_strength",
-  "ph",
-  "solubility_ph",
-  "solubility_C",
+  "specific_heat",
+  --"ph",
+  --"solubility_ph",
+  --"solubility_C",
 }
 
 Tile = {}
 Tile.__index = Tile
 -- props is a map of values to add to the tile.
 -- If a property is not found it is looked up in assets/materials.json
-function Tile:new(name, props)
+-- optional argument: array of similar materials to lookup props in
+function Tile.new(name, props, ...)
   local self = {}
+  local similar = ...
   setmetatable(self, Tile)
   self.name = name
   -- Assign properties
-  for i in PROP_NAMES do
-    if props and props[i] then
+  for i=1,#PROP_NAMES do
+    if props and props[PROP_NAMES[i]] then
       -- assign from argument
-      self[i] = props[i]
-    else
-      -- lookup in json
-      if MAT_VALS[name] then
-        self[i] = MAT_VALS[name][i]
-      else
-        print("Failed to load property " .. i .. " of Tile " .. name)
+      self[PROP_NAMES[i]] = props[PROP_NAMES[i]]
+    elseif MAT_VALS[name] and MAT_VALS[name][PROP_NAMES[i]] then
+      self[PROP_NAMES[i]] = MAT_VALS[name][PROP_NAMES[i]]
+    elseif similar then
+      for j=1,#similar do
+        if MAT_VALS[similar[j]] and MAT_VALS[similar[j]][PROP_NAMES[i]] then
+          self[PROP_NAMES[i]] = MAT_VALS[similar[j]][PROP_NAMES[i]]
+        end
       end
     end
   end
+  return self
 end
 
 function Tile:isOccupied()

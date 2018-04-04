@@ -1,297 +1,1421 @@
 {
+    "ABS": {
+        "density": 1.06
+    },
+
+    "Acetals": {
+        "density": 1.42,
+        "specific_heat": 1460.0
+    },
+
+    "Acrylic": {
+        "density": 1.19,
+        "thermal_conductivity": 0.2
+    },
+
+    "Agate": {
+        "density": 2.55,
+        "specific_heat": 800.0,
+        "thermal_conductivity": 10.9
+    },
+
+    "Alabaster carbonate": {
+        "density": 2.75
+    },
+
+    "Alabaster sulfate": {
+        "density": 2.3
+    },
+
+    "Albite": {
+        "density": 2.625
+    },
+
+    "Alum, lumpy": {
+        "density": 0.881
+    },
+
+    "Alum, pulverized": {
+        "density": 0.752
+    },
+
+    "Alumina": {
+        "density": 4.025,
+        "specific_heat": 718.0
+    },
+
     "Aluminum": {
-        "Boiling Point": 2519.0,
-        "Density": 2.71,
-        "Electric Resistivity": 27.0,
-        "Elongation": 60.0,
-        "Melting Point": 660.3,
-        "Radiation Constant": 0.119,
-        "Specific Heat": 897.0,
-        "Tensile Strength": 70.0,
-        "Thermal Conductivity": 237.0,
-        "Thermal Expansion Coefficient": 23.0
+        "boiling_point": 2519.0,
+        "density": 2.71,
+        "electric_resistivity": 27.0,
+        "elongation": 60.0,
+        "melting_point": 660.3,
+        "specific_heat": 897.0,
+        "tensile_strength": 70.0,
+        "thermal_conductivity": 237.0,
+        "thermal_expansion_coefficient": 23.0
+    },
+
+    "Aluminum Alloy": {
+        "density": 2.7199999999999998,
+        "electric_resistivity": 50.0,
+        "elongation": 23.0,
+        "melting_point": 612.5,
+        "tensile_strength": 325.0,
+        "thermal_expansion_coefficient": 23.0
+    },
+
+    "Aluminum Bronze": {
+        "density": 7.7
+    },
+
+    "Amber": {
+        "density": 1.08
+    },
+
+    "Amphiboles": {
+        "density": 3.05
+    },
+
+    "Andesite, solid": {
+        "density": 2.77
+    },
+
+    "Anorthite": {
+        "density": 2.75
+    },
+
+    "Antimony, cast": {
+        "density": 6.7
+    },
+
+    "Arsenic": {
+        "density": 4.7,
+        "melting_point": 817.0,
+        "specific_heat": 348.0
+    },
+
+    "Artificial Wool": {
+        "density": 1.5
+    },
+
+    "Asbestos": {
+        "density": 2.4,
+        "specific_heat": 816.0,
+        "thermal_conductivity": 0.15
+    },
+
+    "Asbestos, shredded": {
+        "density": 0.35
+    },
+
+    "Asbestos, solid": {
+        "density": 2.45
+    },
+
+    "Ashes": {
+        "density": 0.65
+    },
+
+    "Asphalt": {
+        "density": 0.721,
+        "specific_heat": 920.0,
+        "thermal_conductivity": 0.75
+    },
+
+    "Asphalt, compacted": {
+        "density": 2.36
+    },
+
+    "Asphalt, crushed": {
+        "density": 0.72
+    },
+
+    "Bakelite": {
+        "density": 1.36
+    },
+
+    "Baking powder": {
+        "density": 0.72
+    },
+
+    "Balsa Wood": {
+        "density": 0.13
+    },
+
+    "Barite, crushed": {
+        "density": 2.89
+    },
+
+    "Barium": {
+        "density": 3.78,
+        "melting_point": 725.0,
+        "specific_heat": 290.0
+    },
+
+    "Bark, wood refuse": {
+        "density": 0.24
+    },
+
+    "Barytes": {
+        "density": 4.5,
+        "specific_heat": 460.0
+    },
+
+    "Basalt": {
+        "density": 2.75
+    },
+
+    "Bauxite, crushed": {
+        "density": 1.28
+    },
+
+    "Beeswax": {
+        "density": 0.96
+    },
+
+    "Beryl": {
+        "density": 2.7
+    },
+
+    "Beryllium": {
+        "density": 1.85,
+        "melting_point": 1278.0,
+        "specific_heat": 1020.0,
+        "thermal_conductivity": 218.0
+    },
+
+    "Biotite": {
+        "density": 2.9000000000000004
+    },
+
+    "Bismuth": {
+        "density": 9.8,
+        "melting_point": 271.3,
+        "specific_heat": 130.0,
+        "thermal_conductivity": 8.1
+    },
+
+    "Boiler scale": {
+        "density": 2.5,
+        "specific_heat": 800.0,
+        "thermal_conductivity": 2.35
+    },
+
+    "Bone": {
+        "density": 1.85,
+        "specific_heat": 440.0
+    },
+
+    "Bone, pulverized": {
+        "density": 0.88
+    },
+
+    "Borax, fine": {
+        "density": 0.85
     },
 
     "Brass": {
-        "Density": 8.575,
-        "Electric Resistivity": 40.5,
-        "Elongation": 32.0,
-        "Melting Point": 930.0,
-        "Radiation Constant": 0.152,
-        "Specific Heat": 375.0,
-        "Tensile Strength": 410.0,
-        "Thermal Conductivity": 109.0,
-        "Thermal Expansion Coefficient": 20.15
+        "density": 8.575,
+        "electric_resistivity": 40.5,
+        "elongation": 32.0,
+        "melting_point": 930.0,
+        "radiation_constant": 0.152,
+        "specific_heat": 375.0,
+        "tensile_strength": 410.0,
+        "thermal_conductivity": 109.0,
+        "thermal_expansion_coefficient": 20.15
     },
 
     "Brick": {
-        "Density": 2.1,
-        "Radiation Constant": 5.16,
-        "Specific Heat": 840.0,
-        "Tensile Strength": 38.5,
-        "Thermal Conductivity": 0.47,
-        "Thermal Expansion Coefficient": 6.0
+        "density": 2.1,
+        "radiation_constant": 5.16,
+        "specific_heat": 840.0,
+        "tensile_strength": 38.5,
+        "thermal_conductivity": 0.47,
+        "thermal_expansion_coefficient": 6.0
+    },
+
+    "Brick, fire": {
+        "density": 2.3
+    },
+
+    "Brick, hard": {
+        "density": 2.0
+    },
+
+    "Brick, pressed": {
+        "density": 2.2
+    },
+
+    "Brickwork cement": {
+        "density": 1.8
+    },
+
+    "Brickwork mortar": {
+        "density": 1.6
+    },
+
+    "Bronce": {
+        "density": 8.83
     },
 
     "Bronze": {
-        "Density": 8.3,
-        "Elongation": 32.5,
-        "Melting Point": 1050.0,
-        "Specific Heat": 370.0,
-        "Tensile Strength": 515.0,
-        "Thermal Conductivity": 110.0,
-        "Thermal Expansion Coefficient": 19.5
+        "density": 8.3,
+        "elongation": 32.5,
+        "melting_point": 1050.0,
+        "specific_heat": 370.0,
+        "tensile_strength": 515.0,
+        "thermal_conductivity": 110.0,
+        "thermal_expansion_coefficient": 19.5
+    },
+
+    "Brown iron ore": {
+        "density": 5.1,
+        "specific_heat": 670.0,
+        "thermal_conductivity": 0.58
+    },
+
+    "Butter": {
+        "density": 0.87,
+        "thermal_conductivity": 0.2
+    },
+
+    "CPVC": {
+        "density": 1.6
+    },
+
+    "Cadmium": {
+        "density": 8.64,
+        "melting_point": 320.9,
+        "specific_heat": 234.0,
+        "thermal_conductivity": 92.1
+    },
+
+    "Calamine": {
+        "density": 4.3
+    },
+
+    "Calcium": {
+        "density": 1.55,
+        "melting_point": 839.0,
+        "specific_heat": 532.0
+    },
+
+    "Calcspar": {
+        "density": 2.7
+    },
+
+    "Camphor": {
+        "boiling_points_atmospheric_pressure": 204.0,
+        "density": 1.0
+    },
+
+    "Caoutchouc": {
+        "density": 0.95
     },
 
     "Carbon": {
-        "Boiling Point": 3642.0,
-        "Density": 2.25,
-        "Electric Resistivity": 52.7,
-        "Melting Point": 4492.0,
-        "Thermal Conductivity": 1.7
+        "boiling_point": 3642.0,
+        "density": 2.25,
+        "electric_resistivity": 52.7,
+        "melting_point": 4492.0,
+        "thermal_conductivity": 1.7
+    },
+
+    "Cardboard": {
+        "density": 0.7
+    },
+
+    "Cast Iron": {
+        "density": 7.2
+    },
+
+    "Celluloid": {
+        "density": 1.4
+    },
+
+    "Cellulose acetat, moulded": {
+        "density": 1.28
+    },
+
+    "Cellulose acetat, sheet": {
+        "density": 1.3
+    },
+
+    "Cellulose nitrate, celluloid": {
+        "density": 1.375
+    },
+
+    "Cellulose, cotton, wood pulp, regenerated": {
+        "density": 1.505
+    },
+
+    "Cement": {
+        "density": 1.506,
+        "thermal_conductivity": 0.29
+    },
+
+    "Cement, Portland": {
+        "density": 1.5
+    },
+
+    "Cement, set": {
+        "density": 2.85
+    },
+
+    "Ceramic": {
+        "density": 2.5,
+        "melting_point": 3870.0
+    },
+
+    "Cerium": {
+        "density": 6.77,
+        "melting_point": 798.0
+    },
+
+    "Chalk": {
+        "density": 2.3499999999999996,
+        "specific_heat": 750.0,
+        "thermal_conductivity": 0.09
+    },
+
+    "Charcoal, oak": {
+        "density": 0.6
+    },
+
+    "Charcoal, pine": {
+        "density": 0.35
+    },
+
+    "Chlorinated polyether": {
+        "density": 1.4
+    },
+
+    "Chrom oxide": {
+        "density": 5.21,
+        "specific_heat": 750.0
+    },
+
+    "Chromium": {
+        "density": 7.1,
+        "melting_point": 1857.0,
+        "specific_heat": 452.0,
+        "thermal_conductivity": 94.0
+    },
+
+    "Cinnabar": {
+        "density": 8.1
+    },
+
+    "Clay": {
+        "density": 2.2,
+        "specific_heat": 1381.0,
+        "thermal_conductivity": 0.975
+    },
+
+    "Coal, anthracite": {
+        "density": 1.6
+    },
+
+    "Coal, bituminous": {
+        "density": 1.35
+    },
+
+    "Cobalt": {
+        "density": 8.8,
+        "melting_point": 1495.0,
+        "specific_heat": 435.0,
+        "thermal_conductivity": 69.0
+    },
+
+    "Cocoa, butter": {
+        "density": 0.9
+    },
+
+    "Coke": {
+        "density": 1.35,
+        "specific_heat": 840.0,
+        "thermal_conductivity": 0.184
     },
 
     "Concrete": {
-        "Density": 2.3499999999999996,
-        "Specific Heat": 880.0,
-        "Tensile Strength": 40.0,
-        "Thermal Conductivity": 0.2,
-        "Thermal Expansion Coefficient": 10.5
+        "density": 2.3499999999999996,
+        "specific_heat": 880.0,
+        "tensile_strength": 40.0,
+        "thermal_conductivity": 0.2,
+        "thermal_expansion_coefficient": 10.5
+    },
+
+    "Concrete, Gravel": {
+        "density": 2.4
+    },
+
+    "Concrete, dense": {
+        "density": 2.2
+    },
+
+    "Concrete, lightweight": {
+        "density": 0.725
+    },
+
+    "Concrete, medium": {
+        "density": 1.5
+    },
+
+    "Constantan": {
+        "density": 8.89,
+        "specific_heat": 410.0,
+        "thermal_conductivity": 23.3
+    },
+
+    "Copal": {
+        "density": 1.075
     },
 
     "Copper": {
-        "Boiling Point": 2562.0,
-        "Density": 8.94,
-        "Electric Resistivity": 17.0,
-        "Elongation": 30.0,
-        "Melting Point": 1085.0,
-        "Radiation Constant": 0.119,
-        "Specific Heat": 385.0,
-        "Tensile Strength": 305.0,
-        "Thermal Conductivity": 410.0,
-        "Thermal Expansion Coefficient": 17.1
+        "boiling_point": 2562.0,
+        "density": 8.94,
+        "electric_resistivity": 17.0,
+        "elongation": 30.0,
+        "melting_point": 1085.0,
+        "radiation_constant": 0.119,
+        "specific_heat": 385.0,
+        "tensile_strength": 305.0,
+        "thermal_conductivity": 410.0,
+        "thermal_expansion_coefficient": 17.1
+    },
+
+    "Copper Alloy": {
+        "density": 8.23,
+        "electric_resistivity": 253.5,
+        "elongation": 4.0,
+        "melting_point": 925.0,
+        "tensile_strength": 830.0,
+        "thermal_expansion_coefficient": 17.0
+    },
+
+    "Cork": {
+        "density": 0.175,
+        "specific_heat": 2000.0,
+        "thermal_conductivity": 0.044
+    },
+
+    "Cork, linoleum": {
+        "density": 0.55
+    },
+
+    "Corundum": {
+        "density": 4.0
+    },
+
+    "Diamond": {
+        "density": 3.25,
+        "specific_heat": 516.0,
+        "thermal_conductivity": 1000.0
+    },
+
+    "Dirt": {
+        "density": 1.44
+    },
+
+    "Dolomite": {
+        "density": 2.8
+    },
+
+    "Duralium": {
+        "density": 2.8,
+        "specific_heat": 920.0,
+        "thermal_conductivity": 129.0
+    },
+
+    "Earth": {
+        "density": 1.52,
+        "thermal_conductivity": 1.5
+    },
+
+    "Earth, loose": {
+        "density": 1.2
+    },
+
+    "Earth, rammed": {
+        "density": 1.6
+    },
+
+    "Ebonite": {
+        "density": 1.15,
+        "thermal_conductivity": 0.17
+    },
+
+    "Electron": {
+        "density": 1.8
+    },
+
+    "Emery": {
+        "density": 4.0,
+        "specific_heat": 960.0,
+        "thermal_conductivity": 11.6
+    },
+
+    "Epidote": {
+        "density": 3.35
+    },
+
+    "Epoxy cast resin": {
+        "density": 1.255
+    },
+
+    "Epoxy glass fibre": {
+        "density": 1.5
+    },
+
+    "Expanded polystyrene": {
+        "density": 0.0225
+    },
+
+    "FIberglass": {
+        "density": 0.032
+    },
+
+    "Feldspar": {
+        "density": 2.7
+    },
+
+    "Fire brick": {
+        "density": 2.0,
+        "specific_heat": 880.0
+    },
+
+    "Flint": {
+        "density": 2.6
+    },
+
+    "Fluorite": {
+        "density": 3.2
+    },
+
+    "Galena": {
+        "density": 7.449999999999999
+    },
+
+    "Gallium": {
+        "density": 5.9,
+        "melting_point": 29.78
+    },
+
+    "Gamboge": {
+        "density": 1.2
+    },
+
+    "Garnet": {
+        "density": 3.75
+    },
+
+    "Gas carbon": {
+        "density": 1.9
+    },
+
+    "Gelatin": {
+        "density": 1.3
+    },
+
+    "Germanium": {
+        "density": 5.32,
+        "melting_point": 937.4
     },
 
     "Glass": {
-        "Density": 2.5999999999999996,
-        "Radiation Constant": 5.13,
-        "Specific Heat": 670.0,
-        "Tensile Strength": 515.0,
-        "Thermal Conductivity": 1.05,
-        "Thermal Expansion Coefficient": 8.0
+        "density": 2.5999999999999996,
+        "radiation_constant": 5.13,
+        "specific_heat": 670.0,
+        "tensile_strength": 515.0,
+        "thermal_conductivity": 1.05,
+        "thermal_expansion_coefficient": 8.0
+    },
+
+    "Glass, Pyrex": {
+        "density": 2.21
+    },
+
+    "Glass, common": {
+        "density": 2.5999999999999996
+    },
+
+    "Glass, flint": {
+        "density": 4.4
+    },
+
+    "Glass-wool": {
+        "density": 0.025,
+        "specific_heat": 840.0
+    },
+
+    "Glue": {
+        "density": 1.3
+    },
+
+    "Gneiss": {
+        "density": 2.69
     },
 
     "Gold": {
-        "Boiling Point": 2856.0,
-        "Density": 19.32,
-        "Electric Resistivity": 24.0,
-        "Melting Point": 1064.0,
-        "Specific Heat": 129.0,
-        "Thermal Conductivity": 317.0
+        "boiling_point": 2856.0,
+        "density": 19.32,
+        "electric_resistivity": 24.0,
+        "melting_point": 1064.0,
+        "specific_heat": 129.0,
+        "thermal_conductivity": 317.0
     },
 
     "Granite": {
-        "Crushing Weight": 170.0,
-        "Shearing Strength": 15000.0,
-        "Specific Heat": 790.0,
-        "Strength": 2000.0,
-        "Thermal Conductivity": 2.85
+        "crushing_weight": 170.0,
+        "density": 2.7,
+        "shearing_strength": 15000.0,
+        "specific_heat": 790.0,
+        "strength": 2000.0,
+        "thermal_conductivity": 2.85
+    },
+
+    "Graphite": {
+        "density": 2.5,
+        "specific_heat": 717.0,
+        "thermal_conductivity": 168.0
+    },
+
+    "Gravel": {
+        "density": 1.52,
+        "thermal_conductivity": 0.7
+    },
+
+    "Gum arabic": {
+        "density": 1.35
+    },
+
+    "Gypsum": {
+        "density": 2.3,
+        "specific_heat": 1090.0
+    },
+
+    "Hematite": {
+        "density": 5.1
+    },
+
+    "Hornblende": {
+        "density": 3.0
+    },
+
+    "Ice": {
+        "density": 0.917,
+        "specific_heat": 2093.0,
+        "thermal_conductivity": 2.18
+    },
+
+    "Iodine": {
+        "boiling_points_atmospheric_pressure": 184.3,
+        "density": 4.95,
+        "melting_point": 113.5,
+        "specific_heat": 218.0,
+        "thermal_conductivity": 0.44
+    },
+
+    "Iridium": {
+        "density": 22.5,
+        "melting_point": 2410.0,
+        "specific_heat": 134.0,
+        "thermal_conductivity": 147.0
     },
 
     "Iron": {
-        "Boiling Point": 2861.0,
-        "Density": 7.87,
-        "Electric Resistivity": 97.0,
-        "Elongation": 0.5,
-        "Melting Point": 1538.0,
-        "Specific Heat": 449.0,
-        "Tensile Strength": 274.5,
-        "Thermal Conductivity": 80.2,
-        "Thermal Expansion Coefficient": 10.95
+        "boiling_point": 2861.0,
+        "density": 7.87,
+        "electric_resistivity": 97.0,
+        "elongation": 0.5,
+        "melting_point": 1538.0,
+        "specific_heat": 449.0,
+        "tensile_strength": 274.5,
+        "thermal_conductivity": 80.2,
+        "thermal_expansion_coefficient": 10.95
+    },
+
+    "Ivory": {
+        "density": 1.85
     },
 
     "Lead": {
-        "Boiling Point": 1749.0,
-        "Density": 11.3,
-        "Electric Resistivity": 210.0,
-        "Melting Point": 327.5,
-        "Specific Heat": 129.0,
-        "Thermal Conductivity": 35.3
+        "boiling_point": 1749.0,
+        "density": 11.3,
+        "electric_resistivity": 210.0,
+        "melting_point": 327.5,
+        "specific_heat": 129.0,
+        "thermal_conductivity": 35.3
+    },
+
+    "Lead Crystal": {
+        "density": 3.1
+    },
+
+    "Leather, dry": {
+        "density": 0.86
+    },
+
+    "Lime, slaked": {
+        "density": 1.35
     },
 
     "Limestone": {
-        "Crushing Weight": 170.0,
-        "Shearing Strength": 6000.0,
-        "Specific Heat": 909.0,
-        "Strength": 1000.0,
-        "Thermal Conductivity": 1.295
+        "crushing_weight": 170.0,
+        "density": 2.75,
+        "shearing_strength": 6000.0,
+        "specific_heat": 909.0,
+        "strength": 1000.0,
+        "thermal_conductivity": 1.295
+    },
+
+    "Linoleum": {
+        "density": 1.2
+    },
+
+    "Lithium": {
+        "density": 0.53,
+        "melting_point": 180.54,
+        "specific_heat": 3582.0,
+        "thermal_conductivity": 301.0
+    },
+
+    "Magnesia": {
+        "density": 3.4000000000000004,
+        "specific_heat": 874.0
     },
 
     "Magnesium": {
-        "Boiling Point": 1090.0,
-        "Density": 1.74,
-        "Electric Resistivity": 45.0,
-        "Elongation": 10.0,
-        "Melting Point": 650.0,
-        "Specific Heat": 1050.0,
-        "Tensile Strength": 135.0,
-        "Thermal Conductivity": 156.0,
-        "Thermal Expansion Coefficient": 25.2
+        "boiling_point": 1090.0,
+        "density": 1.74,
+        "electric_resistivity": 45.0,
+        "elongation": 10.0,
+        "melting_point": 650.0,
+        "specific_heat": 1050.0,
+        "tensile_strength": 135.0,
+        "thermal_conductivity": 156.0,
+        "thermal_expansion_coefficient": 25.2
     },
 
     "Magnesium Alloy": {
-        "Boiling Point": 2061.0,
-        "Density": 1.77,
-        "Elongation": 11.0,
-        "Melting Point": 1246.0,
-        "Tensile Strength": 240.0,
-        "Thermal Expansion Coefficient": 27.450000000000003
+        "boiling_point": 2061.0,
+        "density": 1.77,
+        "elongation": 11.0,
+        "melting_point": 1246.0,
+        "tensile_strength": 240.0,
+        "thermal_expansion_coefficient": 27.450000000000003
+    },
+
+    "Magnetite": {
+        "density": 5.050000000000001
+    },
+
+    "Malachite": {
+        "density": 3.9
+    },
+
+    "Manganese": {
+        "density": 7.43,
+        "melting_point": 1244.0,
+        "specific_heat": 460.0
     },
 
     "Marble": {
-        "Crushing Weight": 170.0,
-        "Shearing Strength": 10000.0,
-        "Specific Heat": 880.0,
-        "Strength": 1400.0,
-        "Thermal Conductivity": 2.51
+        "crushing_weight": 170.0,
+        "density": 2.7,
+        "shearing_strength": 10000.0,
+        "specific_heat": 880.0,
+        "strength": 1400.0,
+        "thermal_conductivity": 2.51
+    },
+
+    "Meerschaum": {
+        "density": 1.15
+    },
+
+    "Mica": {
+        "density": 2.9000000000000004,
+        "specific_heat": 880.0,
+        "thermal_conductivity": 0.71
+    },
+
+    "Mineral wool quilt": {
+        "density": 0.05
+    },
+
+    "Molybdenum": {
+        "density": 10.2,
+        "melting_point": 2617.0,
+        "specific_heat": 272.0,
+        "thermal_conductivity": 138.0
     },
 
     "Monel": {
-        "Density": 8.84,
-        "Elongation": 26.0,
-        "Melting Point": 1330.0,
-        "Tensile Strength": 825.0,
-        "Thermal Conductivity": 26.0,
-        "Thermal Expansion Coefficient": 14.0
+        "density": 8.84,
+        "elongation": 26.0,
+        "melting_point": 1330.0,
+        "tensile_strength": 825.0,
+        "thermal_conductivity": 26.0,
+        "thermal_expansion_coefficient": 14.0
+    },
+
+    "Mud": {
+        "density": 1.906
+    },
+
+    "Muscovite": {
+        "density": 2.9
     },
 
     "Nickel": {
-        "Boiling Point": 2913.0,
-        "Density": 8.89,
-        "Electric Resistivity": 70.0,
-        "Elongation": 26.0,
-        "Melting Point": 1455.0,
-        "Specific Heat": 461.0,
-        "Tensile Strength": 535.0,
-        "Thermal Conductivity": 90.7,
-        "Thermal Expansion Coefficient": 13.0
+        "boiling_point": 2913.0,
+        "density": 8.89,
+        "electric_resistivity": 70.0,
+        "elongation": 26.0,
+        "melting_point": 1455.0,
+        "specific_heat": 461.0,
+        "tensile_strength": 535.0,
+        "thermal_conductivity": 90.7,
+        "thermal_expansion_coefficient": 13.0
+    },
+
+    "Nylon": {
+        "density": 1.1,
+        "elongation": 50.0,
+        "tensile_strength": 55.0,
+        "thermal_conductivity": 0.25,
+        "thermal_expansion_coefficient": 87.5
+    },
+
+    "Nylon-6": {
+        "density": 1.145,
+        "specific_heat": 1600.0
+    },
+
+    "Nylon-66": {
+        "density": 1.14,
+        "specific_heat": 1700.0
+    },
+
+    "Oak": {
+        "density": 0.72
+    },
+
+    "Ochre": {
+        "density": 3.5
+    },
+
+    "Opal": {
+        "density": 2.2
+    },
+
+    "Osmium": {
+        "density": 22.48,
+        "melting_point": 3045.0,
+        "specific_heat": 130.0
+    },
+
+    "Oyster Shells": {
+        "density": 0.849
+    },
+
+    "Palladium": {
+        "density": 12.0,
+        "melting_point": 1554.0,
+        "specific_heat": 240.0,
+        "thermal_conductivity": 70.9
+    },
+
+    "Paper": {
+        "density": 0.9249999999999999,
+        "radiation_constant": 4.43,
+        "specific_heat": 1336.0,
+        "thermal_conductivity": 0.05
+    },
+
+    "Paraffin": {
+        "density": 0.9,
+        "specific_heat": 3260.0
+    },
+
+    "Peat blocks": {
+        "density": 0.85
+    },
+
+    "Phenolic cast resin": {
+        "density": 1.28
+    },
+
+    "Phosphorbronce": {
+        "density": 8.8
+    },
+
+    "Phosphorus": {
+        "density": 1.82,
+        "melting_point": 44.1,
+        "specific_heat": 800.0
+    },
+
+    "Pinchbeck": {
+        "density": 8.65,
+        "specific_heat": 380.0,
+        "thermal_conductivity": 159.0
+    },
+
+    "Pit coal": {
+        "density": 1.35,
+        "specific_heat": 1020.0,
+        "thermal_conductivity": 0.24
+    },
+
+    "Pitch": {
+        "density": 1.1,
+        "thermal_conductivity": 0.13
     },
 
     "Platinum": {
-        "Boiling Point": 3825.0,
-        "Density": 21.4,
-        "Electric Resistivity": 110.0,
-        "Melting Point": 1768.0,
-        "Thermal Conductivity": 71.6
+        "boiling_point": 3825.0,
+        "density": 21.4,
+        "electric_resistivity": 110.0,
+        "melting_point": 1768.0,
+        "thermal_conductivity": 71.6
+    },
+
+    "Polyacrylonitrile": {
+        "density": 1.17
+    },
+
+    "Polycarbonates": {
+        "density": 1.2,
+        "specific_heat": 1210.0
+    },
+
+    "Polyethylene, PEH": {
+        "density": 0.94
+    },
+
+    "Polypropylene": {
+        "density": 0.9,
+        "specific_heat": 1920.0,
+        "thermal_conductivity": 0.16
+    },
+
+    "Polystyrene": {
+        "density": 1.03,
+        "specific_heat": 1400.0,
+        "thermal_conductivity": 0.03
+    },
+
+    "Polytetrafluoroethylene": {
+        "density": 2.17,
+        "specific_heat": 1172.0,
+        "thermal_conductivity": 0.25
+    },
+
+    "Polyurethane foam": {
+        "density": 0.03,
+        "thermal_conductivity": 0.03
+    },
+
+    "Polyvinyl chloride, PVC": {
+        "density": 1.39
+    },
+
+    "Porcelain": {
+        "density": 2.4,
+        "specific_heat": 1085.0,
+        "thermal_conductivity": 1.5
+    },
+
+    "Porphyry": {
+        "density": 2.75
+    },
+
+    "Potassium": {
+        "density": 0.86,
+        "melting_point": 63.25,
+        "specific_heat": 1000.0,
+        "thermal_conductivity": 1.0
+    },
+
+    "Pressed wood, pulp board": {
+        "density": 0.19
+    },
+
+    "Pyrite": {
+        "density": 5.0
+    },
+
+    "Quartz": {
+        "density": 2.65,
+        "specific_heat": 730.0
+    },
+
+    "Radium": {
+        "density": 5.0,
+        "melting_point": 700.0
+    },
+
+    "Red lead": {
+        "density": 8.85
+    },
+
+    "Red metal": {
+        "density": 8.8,
+        "specific_heat": 381.0,
+        "thermal_conductivity": 128.0
+    },
+
+    "Resin": {
+        "density": 1.07
+    },
+
+    "Rhenium": {
+        "density": 21.4,
+        "melting_point": 3180.0,
+        "specific_heat": 140.0,
+        "thermal_conductivity": 71.0
+    },
+
+    "Rhodium": {
+        "density": 12.3,
+        "melting_point": 1965.0,
+        "specific_heat": 240.0,
+        "thermal_conductivity": 88.0
+    },
+
+    "Rock salt": {
+        "density": 2.2
+    },
+
+    "Rock wool": {
+        "density": 0.305
+    },
+
+    "Rosin": {
+        "density": 1.07,
+        "specific_heat": 1300.0,
+        "thermal_conductivity": 0.32
     },
 
     "Rubber": {
-        "Density": 1.13,
-        "Elongation": 450.0,
-        "Tensile Strength": 13.5,
-        "Thermal Conductivity": 0.045,
-        "Thermal Expansion Coefficient": 165.0
+        "density": 1.13,
+        "elongation": 450.0,
+        "tensile_strength": 13.5,
+        "thermal_conductivity": 0.045,
+        "thermal_expansion_coefficient": 165.0
+    },
+
+    "Rubber, hard": {
+        "density": 1.2
+    },
+
+    "Rubber, pure gum": {
+        "density": 0.92
+    },
+
+    "Rubber, soft commercial": {
+        "density": 1.1
+    },
+
+    "Rubidium": {
+        "density": 1.52,
+        "melting_point": 38.89,
+        "specific_heat": 330.0,
+        "thermal_conductivity": 58.0
+    },
+
+    "Sand": {
+        "density": 1.6,
+        "radiation_constant": 4.2,
+        "specific_heat": 830.0,
+        "thermal_conductivity": 0.2
+    },
+
+    "Sand, dry": {
+        "density": 1.5
     },
 
     "Sandstone": {
-        "Crushing Weight": 150.0,
-        "Shearing Strength": 8000.0,
-        "Specific Heat": 710.0,
-        "Strength": 1500.0,
-        "Thermal Conductivity": 1.7
+        "crushing_weight": 150.0,
+        "density": 2.25,
+        "shearing_strength": 8000.0,
+        "specific_heat": 710.0,
+        "strength": 1500.0,
+        "thermal_conductivity": 1.7
+    },
+
+    "Selenium": {
+        "density": 4.4,
+        "melting_point": 217.0,
+        "specific_heat": 330.0,
+        "thermal_conductivity": 0.2
+    },
+
+    "Serpentine": {
+        "density": 2.575
+    },
+
+    "Silica, fused transparent": {
+        "density": 2.2
+    },
+
+    "Silica, translucent": {
+        "density": 2.1
     },
 
     "Silicon": {
-        "Density": 2.33,
-        "Electric Resistivity": 100.0,
-        "Melting Point": 1382.0,
-        "Specific Heat": 705.0,
-        "Thermal Conductivity": 148.0
+        "density": 2.33,
+        "electric_resistivity": 100.0,
+        "melting_point": 1382.0,
+        "specific_heat": 705.0,
+        "thermal_conductivity": 148.0
     },
 
     "Silver": {
-        "Boiling Point": 2162.0,
-        "Density": 10.49,
-        "Electric Resistivity": 16.0,
-        "Melting Point": 961.8,
-        "Radiation Constant": 1.19,
-        "Specific Heat": 235.0,
-        "Thermal Conductivity": 429.0
+        "boiling_point": 2162.0,
+        "density": 10.49,
+        "electric_resistivity": 16.0,
+        "melting_point": 961.8,
+        "radiation_constant": 1.19,
+        "specific_heat": 235.0,
+        "thermal_conductivity": 429.0
+    },
+
+    "Slag": {
+        "density": 2.95
+    },
+
+    "Slate": {
+        "crushing_weight": 175.0,
+        "density": 2.95,
+        "shearing_strength": 15000.0,
+        "specific_heat": 760.0,
+        "thermal_conductivity": 2.01
+    },
+
+    "Snow": {
+        "density": 0.1,
+        "specific_heat": 2090.0,
+        "thermal_conductivity": 0.15
+    },
+
+    "Soapstone": {
+        "density": 2.7
+    },
+
+    "Sodium": {
+        "density": 0.98,
+        "melting_point": 97.81,
+        "specific_heat": 1260.0,
+        "thermal_conductivity": 135.0
     },
 
     "Solder": {
-        "Density": 9.754999999999999,
-        "Electric Resistivity": 170.0,
-        "Elongation": 42.5,
-        "Melting Point": 215.0,
-        "Radiation Constant": 1.19,
-        "Tensile Strength": 33.0,
-        "Thermal Conductivity": 39.9
+        "density": 9.754999999999999,
+        "electric_resistivity": 170.0,
+        "elongation": 42.5,
+        "melting_point": 215.0,
+        "tensile_strength": 33.0,
+        "thermal_conductivity": 39.9
+    },
+
+    "Soot": {
+        "density": 1.65,
+        "specific_heat": 840.0,
+        "thermal_conductivity": 0.07
+    },
+
+    "Spermaceti": {
+        "density": 0.95
+    },
+
+    "Starch": {
+        "density": 1.5
+    },
+
+    "Steatite": {
+        "density": 2.6500000000000004,
+        "specific_heat": 830.0,
+        "thermal_conductivity": 2.0
     },
 
     "Steel": {
-        "Density": 7.85,
-        "Electric Resistivity": 910.0,
-        "Elongation": 21.5,
-        "Melting Point": 1425.0,
-        "Radiation Constant": 0.119,
-        "Specific Heat": 490.0,
-        "Tensile Strength": 1120.0,
-        "Thermal Conductivity": 43.0,
-        "Thermal Expansion Coefficient": 14.0
+        "density": 7.85,
+        "electric_resistivity": 910.0,
+        "elongation": 21.5,
+        "melting_point": 1425.0,
+        "specific_heat": 490.0,
+        "tensile_strength": 1120.0,
+        "thermal_conductivity": 43.0,
+        "thermal_expansion_coefficient": 14.0
+    },
+
+    "Stone": {
+        "density": 2.6,
+        "tensile_strength": 175.0
+    },
+
+    "Sugar": {
+        "density": 1.6
+    },
+
+    "Sulfur, cryst.": {
+        "density": 2.0
+    },
+
+    "Talc": {
+        "density": 2.75
+    },
+
+    "Tallow, beef": {
+        "density": 0.95
+    },
+
+    "Tallow, mutton": {
+        "density": 0.95
+    },
+
+    "Tantalum": {
+        "density": 16.6,
+        "melting_point": 2996.0,
+        "thermal_conductivity": 54.0
+    },
+
+    "Tar": {
+        "boiling_points_atmospheric_pressure": 300.0,
+        "density": 1.05,
+        "thermal_conductivity": 0.19
+    },
+
+    "Tellurium": {
+        "density": 6.25,
+        "melting_point": 449.5,
+        "specific_heat": 201.0,
+        "thermal_conductivity": 4.9
+    },
+
+    "Thorium": {
+        "density": 11.7,
+        "melting_point": 1750.0,
+        "specific_heat": 140.0,
+        "thermal_conductivity": 38.0
     },
 
     "Tin": {
-        "Boiling Point": 2602.0,
-        "Density": 7.3,
-        "Electric Resistivity": 110.0,
-        "Melting Point": 231.9,
-        "Radiation Constant": 0.26,
-        "Specific Heat": 228.0,
-        "Thermal Conductivity": 66.6
+        "boiling_point": 2602.0,
+        "density": 7.3,
+        "electric_resistivity": 110.0,
+        "melting_point": 231.9,
+        "radiation_constant": 0.26,
+        "specific_heat": 228.0,
+        "thermal_conductivity": 66.6
     },
 
     "Titanium": {
-        "Boiling Point": 3287.0,
-        "Density": 4.54,
-        "Electric Resistivity": 430.0,
-        "Elongation": 25.0,
-        "Melting Point": 1668.0,
-        "Radiation Constant": 0.119,
-        "Specific Heat": 523.0,
-        "Tensile Strength": 500.0,
-        "Thermal Conductivity": 21.9
+        "boiling_point": 3287.0,
+        "density": 4.54,
+        "electric_resistivity": 430.0,
+        "elongation": 25.0,
+        "melting_point": 1668.0,
+        "specific_heat": 523.0,
+        "tensile_strength": 500.0,
+        "thermal_conductivity": 21.9
+    },
+
+    "Titanium Alloy": {
+        "density": 4.51,
+        "elongation": 10.0,
+        "tensile_strength": 935.0,
+        "thermal_expansion_coefficient": 9.0
+    },
+
+    "Topaz": {
+        "density": 3.55
+    },
+
+    "Tourmaline": {
+        "density": 3.1
     },
 
     "Tungsten": {
-        "Boiling Point": 5555.0,
-        "Density": 19.3,
-        "Electric Resistivity": 56.0,
-        "Elongation": 2.0,
-        "Melting Point": 3422.0,
-        "Radiation Constant": 0.119,
-        "Specific Heat": 132.0,
-        "Tensile Strength": 2700.0,
-        "Thermal Conductivity": 174.0,
-        "Thermal Expansion Coefficient": 4.3
+        "boiling_point": 5555.0,
+        "density": 19.3,
+        "electric_resistivity": 56.0,
+        "elongation": 2.0,
+        "melting_point": 3422.0,
+        "specific_heat": 132.0,
+        "tensile_strength": 2700.0,
+        "thermal_conductivity": 174.0,
+        "thermal_expansion_coefficient": 4.3
+    },
+
+    "Uranium": {
+        "density": 19.1,
+        "melting_point": 1132.0,
+        "specific_heat": 116.0,
+        "thermal_conductivity": 27.6
+    },
+
+    "Urea formaldehyde foam": {
+        "density": 0.08
+    },
+
+    "Vanadium": {
+        "density": 6.1,
+        "melting_point": 1890.0,
+        "specific_heat": 500.0
+    },
+
+    "Vermiculite": {
+        "density": 0.641
+    },
+
+    "Water": {
+        "boiling_points_atmospheric_pressure": 100.0,
+        "density": 1.0,
+        "radiation_constant": 3.7,
+        "specific_heat": 4182.0,
+        "thermal_conductivity": 0.606
+    },
+
+    "Wax, sealing": {
+        "density": 1.8
+    },
+
+    "White metal": {
+        "density": 8.75,
+        "thermal_conductivity": 52.5
     },
 
     "Wood": {
-        "Density": 0.6000000000000001,
-        "Radiation Constant": 4.17,
-        "Specific Heat": 1850.0,
-        "Tensile Strength": 75.0,
-        "Thermal Conductivity": 0.17
+        "density": 0.6000000000000001,
+        "radiation_constant": 4.17,
+        "specific_heat": 1850.0,
+        "tensile_strength": 75.0,
+        "thermal_conductivity": 0.17
+    },
+
+    "Wood wool slab": {
+        "density": 0.65
+    },
+
+    "Wool": {
+        "density": 1.31,
+        "radiation_constant": 4.3,
+        "thermal_conductivity": 0.07
     },
 
     "Zinc": {
-        "Boiling Point": 907.0,
-        "Density": 7.14,
-        "Electric Resistivity": 59.0,
-        "Melting Point": 419.5,
-        "Radiation Constant": 0.152,
-        "Specific Heat": 388.0,
-        "Thermal Conductivity": 116.0,
-        "Thermal Expansion Coefficient": 30.2
+        "boiling_point": 907.0,
+        "density": 7.14,
+        "electric_resistivity": 59.0,
+        "melting_point": 419.5,
+        "radiation_constant": 0.152,
+        "specific_heat": 388.0,
+        "thermal_conductivity": 116.0,
+        "thermal_expansion_coefficient": 30.2
     }
 }

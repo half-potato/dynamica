@@ -10,19 +10,19 @@ function MetaGrid.new(grids, originx, originy)
   return self
 end
 
-function MetaGrid:get_rel_xy(self, x, y)
+function MetaGrid:get_rel_xy(x, y)
   return x-self.x, y-self.y
 end
 
 -- Optional arguments: ignored_grids_ind, the indicies of grids to ignore when looking
-function MetaGrid:grids_at(self, x, y, ...)
+function MetaGrid:grids_at(x, y, ...)
   local out = {}
   local ignored_grids_ind = ... or {}
   for i=1,#self.grids do
     -- Check if index is in ignore list
     local ignore = false
     for j=1,#ignored_grids_ind do
-      if i=ignored_grids_ind[j] then
+      if i==ignored_grids_ind[j] then
         ignore = true
       end
     end
@@ -35,7 +35,7 @@ function MetaGrid:grids_at(self, x, y, ...)
 end
 
 -- Optional arguments: ignored_grids_ind, the indicies of grids to ignore when looking
-function MetaGrid:tiles_at(self, x, y, ...)
+function MetaGrid:tiles_at(x, y, ...)
   local out = {}
   local grids = self:grids_at(x,y,...)
   for i=1,#grids do
@@ -47,7 +47,7 @@ end
 -- Optional arguments: 
 -- ignored_grids_ind, the indicies of grids to ignore when looking
 -- dx, dy, the offset of the grid being checked
-function MetaGrid:check_overlap(self, grid, ...)
+function MetaGrid:check_overlap(grid, ...)
   ignored_grids_ind, dx, dy = ...
   for x=1,grid.width do
     for y=1,grid.height do
@@ -65,8 +65,8 @@ function MetaGrid:check_overlap(self, grid, ...)
   return false
 end
 
-function MetaGrid:move_grid(self, g_index, dx, dy)
-  if nto self:check_overlap(self.grids[g_index], {g_index}, dx, dy) then
+function MetaGrid:move_grid(g_index, dx, dy)
+  if not self:check_overlap(self.grids[g_index], {g_index}, dx, dy) then
     self.grids[g_index].x = dx + self.grids[g_index].x
     self.grids[g_index].y = dy + self.grids[g_index].y
     return true
@@ -74,7 +74,7 @@ function MetaGrid:move_grid(self, g_index, dx, dy)
   return false
 end
 
-function MetaGrid:add_grid(self, grid)
+function MetaGrid:add_grid(grid)
   if not self.check_overlap(grid) then
     table.insert(self.grids, grid)
     return true
@@ -82,6 +82,6 @@ function MetaGrid:add_grid(self, grid)
   return false
 end
 
-function MetaGrid:remove_grid(self, g_index)
+function MetaGrid:remove_grid(g_index)
   return table.remove(self.grid, g_index)
 end

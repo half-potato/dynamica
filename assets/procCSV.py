@@ -1,7 +1,8 @@
 import csv, json, re
 from icecream import ic
 
-min_props = 5
+min_props = 1
+required_props = ["density"]
 
 def parseNumbers(string):
     arr = string.split(" ")
@@ -32,6 +33,7 @@ def parseHeader(arr):
                 return headers
         except:
             return headers
+
 def stripName(name, maxDangling):
     name = " " + name + " "
     for i in range(maxDangling):
@@ -42,6 +44,11 @@ def stripName(name, maxDangling):
     name = name.strip()
     return name
 
+def processHeader(name):
+    name = stripName(name, 2)
+    name = re.sub(r' ', '_', name)
+    return name.lower()
+
 with open("materials.csv", "r") as f:
     reader = csv.reader(f, quotechar='"')
     header_slices = []
@@ -51,15 +58,18 @@ with open("materials.csv", "r") as f:
         if i == 0:
             # Parse header
             header_slices = parseHeader(row)
-            header = [stripName(j, 2) for j in row]
+            header = [processHeader(j) for j in row]
         else:
             # Iterate over slices
             for sl in header_slices:
-                mat_name = row[sl.start].strip()
+                mat_name = stripName(row[sl.start], 2)
                 if not materials.get(mat_name):
                     materials[mat_name] = {}
                 # Iterate over items in slice
                 for j in range(sl.start+1, sl.stop):
+                    if mat_name == "Sandstone":
+                        print(row[j])
+                        print(parseNumbers(row[j]))
                     v = parseNumbers(row[j])
                     if not materials[mat_name].get(header[j]) and v:
                         materials[mat_name][header[j]] = v
@@ -69,6 +79,10 @@ with open("materials.csv", "r") as f:
     for key in materials:
         if len(materials[key]) < min_props:
             remove_list.append(key)
+        else:
+            for prop in required_props:
+                if not prop in materials[key]:
+                    remove_list.append(key)
 
     for key in remove_list:
         del materials[key]

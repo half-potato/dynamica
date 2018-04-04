@@ -1,3 +1,32 @@
+require 'core/tiles/load'
+require 'core/RotatingGrid'
+require 'core/Grid'
+require 'core/Tile'
+require 'client/load_textures'
+require 'client/RotatingGridRenderer'
+
+world = {}
+
+function love.load()
+  grids = {}
+  function create_air()
+    return Tile.new("Air", {})
+  end
+  grids[1] = Grid.empty(5, 6, create_air, 1, 0, 0)
+  world[1] = RotatingGrid.new(grids, 0, 0, 0)
+end
+
+function love.draw()
+  for i=1,#world do
+    world[i]:draw(16, 0, 0)
+  end
+end
+
+function love.update()
+end
+
+--[[
+
 local socket = require "socket"
 
 local address, port = "localhost", 8008
@@ -58,3 +87,4 @@ function love.draw()
     love.graphics.print(k, v.x, v.y)
   end
 end
+]]--
