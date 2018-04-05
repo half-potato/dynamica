@@ -1,6 +1,6 @@
 require 'core/Tile'
 
-local t = Tile.new("Grass", {texture="tiles/minecraft/textures/blocks/grass_side.png"})
+local t = Tile.new("Grass", {})
 
 return t
 

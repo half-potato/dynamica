@@ -9,6 +9,8 @@ function readAll(file)
   return content
 end
 
+
+---- Load values for blocks
 -- Values taken from: https://www.engineeringtoolbox.com
 local mat_vals_json = readAll("assets/materials.json", "r")
 if not mat_vals_json then
@@ -16,12 +18,14 @@ if not mat_vals_json then
 end
 MAT_VALS = json.decode(mat_vals_json)
 
-function json_retrieve(name, val_key)
-  return MAT_VALS[name][val_key]
+--- Load spritesheet texture indices
+local spritesheet_index_json = readAll("assets/spritesheet.json", "r")
+if not spritesheet_index_json then
+  error("Failed to load assets/spritesheet.json")
 end
+SPRITESHEET_INDEX = json.decode(spritesheet_index_json)
 
 PROP_NAMES = {
-  "texture",
   "density", -- g/cm
   "melting_point",
   "thermal_conductivity",
@@ -46,6 +50,9 @@ function Tile.new(name, props, ...)
   local similar = ...
   setmetatable(self, Tile)
   self.name = name
+  if not props['texture'] then
+    self.spritesheet_index = SPRITESHEET_INDEX[self.name]
+  end
   -- Assign properties
   for i=1,#PROP_NAMES do
     if props and props[PROP_NAMES[i]] then

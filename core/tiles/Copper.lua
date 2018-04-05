@@ -1,5 +1,5 @@
 require 'core/Tile'
 
-local t = Tile.new("Copper", {texture="tiles/bluepower/textures/blocks/copper_block.png"})
+local t = Tile.new("Copper", {})
 
 return t

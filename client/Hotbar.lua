@@ -1,4 +1,5 @@
 local uare = require 'lib/uare'
+require 'client/load_textures'
 
 Hotbar = {}
 Hotbar.__index = Hotbar
@@ -70,8 +71,25 @@ end
 function Hotbar:createSlot(number)
   local slot = uare.new({
     x = self.x+(number-1)*item_button.width,
-    y = self.y,--+(number-1)*item_button.height,
+    y = self.y,
+    content = {
+      width = item_button.width - 10,
+      height = item_button.height - 10,
+    },
   }):style(item_button)
+  slot:setContent(function(ref, alpha)
+    love.graphics.setColor(255, 255, 255, alpha)
+    local tex = TILE_TEXTURES[self.selection[number].name]
+    if tex then
+      love.graphics.draw(tex, 5,5, 0, (item_button.width-10)/tex:getWidth(),
+                         (item_button.height-10)/tex:getHeight())
+    else
+      local q = TILE_QUADS[self.selection[number].name]
+      love.graphics.draw(SPRITESHEET, q, 5,5, 0, (item_button.width-10)/TILE_W,
+                         (item_button.height-10)/TILE_H)
+    end
+  end)
+
   slot.onRelease = function()
     for i=1,#self.slots do
       self.slots[i]:enable()

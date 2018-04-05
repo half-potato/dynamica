@@ -1,5 +1,5 @@
 require 'core/Tile'
 
-local t = Tile.new("Air", {texture="air.png"})
+local t = Tile.new("Air", {})
 
 return t

@@ -1,5 +1,5 @@
 require 'core/Tile'
 
-local wood = Tile.new("Wood", {texture="tiles/forestry/textures/blocks/wood/bark.pine.png"})
+local wood = Tile.new("Wood", {})
 
 return wood

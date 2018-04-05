@@ -1,0 +1,10 @@
+{
+    "Sandstone": 1,
+    "Iron": 2,
+    "Wood": 0,
+    "Marble": 4,
+    "Air": 5,
+    "Grass": 6,
+    "Dirt": 3,
+    "Copper": 7
+}

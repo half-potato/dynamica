@@ -1,0 +1,11 @@
+{
+  "Dirt": "tiles/minecraft/textures/blocks/dirt.png",
+  "Marble": "tiles/bluepower/textures/blocks/marble.png",
+  "Sandstone": "tiles/minecraft/textures/blocks/sandstone_normal.png",
+  "Wood": "tiles/forestry/textures/blocks/wood/bark.pine.png",
+  "Dirt": "tiles/minecraft/textures/blocks/dirt.png",
+  "Iron": "tiles/minecraft/textures/blocks/iron_block.png",
+  "Grass": "tiles/minecraft/textures/blocks/grass_side.png",
+  "Copper": "tiles/bluepower/textures/blocks/copper_block.png",
+  "Air": "air.png"
+}
