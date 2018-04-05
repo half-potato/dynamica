@@ -7,6 +7,7 @@ function Grid.fromData(data, scale, originx, originy, ...)
   local self = {}
   setmetatable(self, Grid)
   self.data = data
+  -- The origin is in parent coords
   self.x = originx
   self.y = originy
   self.scale = scale
@@ -30,19 +31,33 @@ function Grid.empty(width, height, zero_fn, scale, originx, originy)
   return Grid.fromData(zeroArr, scale, originx, originy, width, height)
 end
 
-function Grid:rel_get(self, x, y)
+-- Turns coordinates from the grid data space to the parent space
+function Grid:gridToParent(x, y)
+  return x*self.scale+self.x, y*self.scale+self.y
+end
+
+-- Turns coordinates from the grid data space to the parent space
+function Grid:parentToGrid(x, y)
+  return math.floor(x/self.scale)+self.x, math.floor(y/self.scale)+self.y
+end
+
+-- Parent space
+function Grid:parent_get(self, x, y)
   if not self.contains(x,y) then
     return nil
   else
-    return self.data[math.ceil((x-self.x)/scale)][math.ceil((y-self.y)/scale)]
+    local rx, ry = self:parentToGrid(x, y)
+    return self.data[rx][ry]
   end
 end
 
-function Grid:contains(self, x, y)
-  local lx, ly = self:rel_get(x,y)
-  return (lx >= 1 and ly >= 1) and (lx <= self.width and ly <= self.height)
+-- Parent space
+function Grid:contains(x, y)
+  local lx, ly = self:parentToGrid(x,y)
+  return (lx >= 1 and ly >= 1) and (lx <= self.width*self.scale and ly <= self.height*self.scale)
 end
 
+-- Array manipulation 
 function Grid:insert_row(self, i, row)
   self.data.insert(i, row)
   table.insert(self.data, i, row)

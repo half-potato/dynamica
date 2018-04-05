@@ -10,36 +10,72 @@ function MetaGrid.new(grids, originx, originy)
   return self
 end
 
-function MetaGrid:get_rel_xy(x, y)
+-- Turns coordinates from the grid data space to the parent space
+function MetaGrid:gridToParent(x, y)
+  return x+self.x, y+self.y
+end
+
+-- Turns coordinates from the grid data space to the parent space
+function MetaGrid:parentToGrid(x, y)
   return x-self.x, y-self.y
 end
 
+function MetaGrid:isOccupied(x, y)
+  return #self:tiles_at(x, y) ~= 0
+end
+
+function MetaGrid:contains(x, y)
+  return #self:grids_at(x, y) ~= 0
+end
+
+-- Parent space
+function MetaGrid:get(x, y)
+  local rx, ry = self:parentToGrid(x, y)
+  return self:tiles_at(rx, ry)
+end
+
+-- Parent space
+function MetaGrid:set(x, y, val)
+  local rx, ry = self:parentToGrid(x, y)
+  local grids = self:grids_at(rx, ry)
+  for i=1,#grids do
+    local grid = grids[i]
+    local rrx, rry = grid:parentToGrid(rx, ry)
+    grid.data[rrx][rry] = val
+    return true
+  end
+  return false
+end
+
 -- Optional arguments: ignored_grids_ind, the indicies of grids to ignore when looking
+-- Grid space
 function MetaGrid:grids_at(x, y, ...)
   local out = {}
   local ignored_grids_ind = ... or {}
   for i=1,#self.grids do
     -- Check if index is in ignore list
     local ignore = false
+    local grid = self.grids[i]
     for j=1,#ignored_grids_ind do
       if i==ignored_grids_ind[j] then
         ignore = true
       end
     end
     -- Add to output if point is contained in grid
-    if not ignore and self.grids[i]:contains(x,y) then
-      table.insert(out, self.grids[i])
+    if not ignore and grid:contains(x,y) then
+      table.insert(out, grid)
     end
   end
   return out
 end
 
 -- Optional arguments: ignored_grids_ind, the indicies of grids to ignore when looking
+-- Grid space
 function MetaGrid:tiles_at(x, y, ...)
   local out = {}
   local grids = self:grids_at(x,y,...)
   for i=1,#grids do
-    table.insert(out, grids[i].rel_get(x,y))
+    table.insert(out, grids[i].parent_get(x,y))
   end
   return out
 end

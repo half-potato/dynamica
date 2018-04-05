@@ -14,6 +14,5 @@ TILE_NAME_LIST = {
 }
 
 for i=1,#TILE_NAME_LIST do
-  print(TILE_NAME_LIST[i])
   table.insert(TILES, require(string.format('core/tiles/%s', TILE_NAME_LIST[i])))
 end

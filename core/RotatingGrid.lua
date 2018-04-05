@@ -15,8 +15,8 @@ function RotatingGrid.new(grids, x, y, ...)
   return self
 end
 
--- Turns coordinates from the grid data space to the world space
-function RotatingGrid:get_rel_xy(x, y)
+-- Turns coordinates from the grid data space to the parent space
+function RotatingGrid:gridToParent(x, y)
   local cx = x - self.cx
   local cy = y - self.cy
   -- Rotate relative coordinates by self.angle
@@ -24,6 +24,16 @@ function RotatingGrid:get_rel_xy(x, y)
   local mag = math.sqrt(cx*cx + cy*cy)
   -- Add rotated coordinates to the grid center and grid origin
   return mag*math.cos(theta+self.angle) + self.cx + self.x, mag*math.sin(theta+self.angle) + self.cy + self.y
+end
+
+function RotatingGrid:parentToGrid(x, y)
+  local cx = x - self.x - self.cx
+  local cy = y - self.y - self.cy
+  -- Rotate relative coordinates by self.angle
+  local theta = math.atan2(cy, cx)
+  local mag = math.sqrt(cx*cx + cy*cy)
+  -- Add rotated coordinates to the grid center and grid origin
+  return mag*math.cos(theta-self.angle) + self.cx + self.x, mag*math.sin(theta-self.angle) + self.cy + self.y
 end
 
 -- The center of the grid in data space
