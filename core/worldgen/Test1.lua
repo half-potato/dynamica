@@ -58,4 +58,5 @@ metagrids[1].data[25][14] = Tile.new("Marble", {})
 grids = {}
 grids[1] = RotatingGrid.new(metagrids, 0, 0, math.pi/8)
 
-return World.new(grids)
+w = World.new(grids)
+return w

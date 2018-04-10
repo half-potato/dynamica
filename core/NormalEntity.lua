@@ -4,6 +4,14 @@ NormalEntity = PhysicalEntity.new("This type should not appear", 0, 0, nil)
 NormalEntity.__index = NormalEntity
 
 -- x, y = top left corner
+function NormalEntity.init(o)
+  setmetatable(self, NormalEntity)
+  -- Collider needs to set this to nil for you to jump again
+  self.currentJumpStrength = nil
+  return self
+end
+
+-- x, y = top left corner
 function NormalEntity.new(name, x, y, collider, maxSpeed, mass, health, accel, jumpStrength)
   self = PhysicalEntity.new(name, x, y, collider, maxSpeed, mass)
   setmetatable(self, NormalEntity)
@@ -27,14 +35,14 @@ end
 function NormalEntity:jump()
   if not self.currentJumpStrength then
     self.currentJumpStrength = vector(0, self.jumpStrength)
-  elseif self.currentJumpStrength:len() > 0 then
+  elseif self.currentJumpStrength.y > 0 then
     self.netAccel = self.netAccel + self.currentJumpStrength
   end
 end
 
 function NormalEntity:update(dt, gravityVec)
   self.netAccel = self.netAccel + gravityVec
-  if self.currentJumpStrength and self.currentJumpStrength:len() > 0 then
+  if self.currentJumpStrength and self.currentJumpStrength.y > 0 then
     self.currentJumpStrength = self.currentJumpStrength + gravityVec
   end
   Entity.update(self, dt)

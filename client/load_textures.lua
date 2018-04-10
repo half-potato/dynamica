@@ -1,5 +1,6 @@
 require 'core/tiles/load'
 
+-- Load tile textures + spritesheet
 SPRITESHEET = love.graphics.newImage("assets/spritesheet.png")
 SPRITESHEET:setFilter("nearest", "nearest")
 TILE_TEXTURES = {}
@@ -22,3 +23,6 @@ for i=1,#TILES do
     TILE_QUADS[tile.name] = love.graphics.newQuad(x*TILE_W, y*TILE_H, TILE_W, TILE_H, SPRITESHEET_W, SPRITESHEET_H)
   end
 end
+
+-- Load entity textures
+--ENTITY

@@ -13,7 +13,6 @@ function MainPlayer.new(name, x, y, collider, maxSpeed, mass, health, accel, jum
 end
 
 function MainPlayer:update(dt, gravityVec)
-  print(self.interface)
   if self.interface:shouldJump() then
     self:jump()
   end
@@ -24,5 +23,5 @@ function MainPlayer:update(dt, gravityVec)
     self:moveLeft()
   end
   Player.update(self, dt, gravityVec)
-  print(string.format("Player Pos: %f, %f", self.desiredPos.x, self.desiredPos.y))
+  --print(string.format("Player Pos: %f, %f", self.desiredPos.x, self.desiredPos.y))
 end

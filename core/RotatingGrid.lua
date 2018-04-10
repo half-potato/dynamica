@@ -60,3 +60,5 @@ function RotatingGrid:add_grid(grid)
   MetaGrid.add_grid(self, grid)
   self:update_center()
 end
+
+--function RotatingGrid:raycast(
